@@ -1,0 +1,18 @@
+上傳:
+commit -> push
+
+commit步驟:
+Stage Changed->輸入Commit Message->commit
+
+push步驟:
+Push
+
+
+下載:
+fetch -> merge
+
+fetch步驟:
+Remote -> Fetch from -> origin
+
+merge步驟:
+Merge -> Local Merge -> Tracking Branch -> origin/master -> Merge
