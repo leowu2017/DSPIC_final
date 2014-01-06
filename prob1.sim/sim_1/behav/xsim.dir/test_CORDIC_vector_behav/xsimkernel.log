@@ -1,5 +1,0 @@
-Running: xsim.dir/test_CORDIC_vector_behav/xsimk.exe -simmode gui -wdb test_CORDIC_vector_behav.wdb -simrunnum 0 -socket 49995
-Design successfully loaded
-Design Loading CPU Usage: 93 ms
-Simulation completed
-Simulation CPU Usage: 108 ms

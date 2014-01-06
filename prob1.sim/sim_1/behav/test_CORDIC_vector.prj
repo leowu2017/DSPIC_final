@@ -1,5 +1,0 @@
-verilog work  "E:/Leo/DSP hw2/prob1/prob1.srcs/sources_1/new/mult_16bits.v"
-verilog work  "E:/Leo/DSP hw2/prob1/prob1.srcs/sources_1/new/LUT_atan_two_ith_inverse.v"
-verilog work  "E:/Leo/DSP hw2/prob1/prob1.srcs/sources_1/new/CORDIC_vector.v"
-verilog work  "E:/Leo/DSP hw2/prob1/prob1.srcs/sim_1/new/test_CORDIC_vector.v"
-verilog work "D:/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v"
