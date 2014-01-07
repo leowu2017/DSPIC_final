@@ -38,6 +38,7 @@ add_32bits_float.v
 commit -> push
 
 commit步驟:
+加入特定檔案: 選擇檔案後Ctrl+t 
 Rescan -> Stage Changed->輸入Commit Message->commit
 
 push步驟:
