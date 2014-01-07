@@ -3,29 +3,30 @@
 http://cnx.org/content/m12031/latest/
 
 ####################################################
-*16bits representation(21 bits)
-____ _ ________________
-0000 0 0000000000000000
+*16bits representation
+_ _____ ________
+0 00000 00000000
 ¡ô   ¡ô¡ô
-decimal point position(4 bits)
+sign(1 bit)
      ¡U¡U
-     sign(1 bit)
+     decimal point position(5 bits)
        ¡U
-       number(16 bits)
+       number(10 bits)
 
-*32bits representation(38 bits)
-_____ _ ________________________________
-00000 0 00000000000000000000000000000000
+*32bits representation
+_ ________ _____________________
+0 00000000 000000000000000000000
 ¡ô   ¡ô¡ô
-decimal point position(5 bits)
+sign(1 bit)
      ¡U¡U
-     sign(1 bit)
+     decimal point position(8 bits)
        ¡U
-       number(32 bits)
+       number(21 bits)
 
 ####################################################
 *Modules
 - to implement -
+
 mult_32bits_float.v
 add_32bits_float.v
 

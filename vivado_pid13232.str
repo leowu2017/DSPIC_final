@@ -413,3 +413,8 @@ selectCodeEditor ("add_32bits_float.v", 270, 59); // aR:G (JPanel:JComponent, bR
 // TclEventType: DG_UPDATE_GRAPH
 // TclEventType: DG_ANALYSIS_MSG_RESET
 // TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 120 seconds
+selectCodeEditor ("add_32bits_float.v", 76, 81); // aR:G (JPanel:JComponent, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 4:26:52 PM
+// [GUI Memory]: 93 mb (+1171kb) [01:21:55]
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 4:56:53 PM
