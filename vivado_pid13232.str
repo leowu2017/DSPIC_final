@@ -1196,3 +1196,189 @@ selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitl
 closeView (RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // v:aA
 selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params_sim.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
 selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// Elapsed time: 55 seconds
+selectCodeEditor ("params.v", 175, 291); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 149, 175); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 627 mb (+49kb) [04:42:37]
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params_sim.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 106, 179); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 22 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("params.v", 194, 61); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 141, 154); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 161, 85); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 149, 22); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 44 seconds
+selectCodeEditor ("params.v", 80, 50); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 80, 50, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("params.v", 136, 43); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 117, 43); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 117, 43, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 136, 162); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 136, 162, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 80, 107); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 150, 166); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 150, 166, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 269, 164); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 269, 164, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor ("params.v", 166, 71); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 147, 85); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 55 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("params.v", 277, 83); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 258, 55); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 107, 44); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 43, 53); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 47, 47); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 104, 64); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor ("params.v", 147, 62); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 219, 65); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 61, 28); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 61, 28, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("params.v", 291, 68); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 304, 102); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor ("params.v", 137, 105); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 137, 105, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("params.v", 173, 122); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 104, 83); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 103, 83, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("params.v", 421, 125); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 393, 161); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor ("params.v", 127, 161); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 127, 161, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("params.v", 176, 183); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 110, 147); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 110, 147, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("params.v", 431, 184); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 382, 166); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("params.v", 105, 13); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 179, 216); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 16, 23); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 24 seconds
+selectCodeEditor ("params.v", 78, 57); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 80, 45); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 80, 45, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("params.v", 146, 34); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 74, 45); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 74, 45, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 124, 86); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 35, 99); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor ("mult_32bits_float.v", 167, 166); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 8:15:11 PM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// Tcl Message: Vivado Simulator 2013.3 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved. Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj work.test_mult_32bits_float work.glbl  Multi-threading is on. Using 2 slave threads. Determining compilation order of HDL files. 
+// TclEventType: LAUNCH_SIM
+selectButton (RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, e:ca)
+// Tcl Message: INFO: [Runs 36-26] xelab completed. INFO: [Vivado 12-1390] *** Running xsim     with args "test_mult_32bits_float_behav -key {Behavioral:sim_1:Functional:test_mult_32bits_float} -tclbatch {test_mult_32bits_float.tcl} -log {test_mult_32bits_float_behav.log}" 
+// Tcl Message: Vivado Simulator 2013.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// [GUI Memory]: 110 mb (+3063kb) [04:48:24]
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: $finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_mult_32bits_float.v" Line 16 xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 835.605 ; gain = 0.000 
+// Tcl Message: INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_mult_32bits_float_behav' loaded. 
+// Tcl Message: launch_xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 835.605 ; gain = 0.000 
+dismissDialog ("Run Simulation"); // e:ca (bR:JFrame)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 8:15:20 PM
+closeView (RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 2"); // v:aA
+selectCodeEditor ("test_mult_32bits_float.v", 107, 108); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("test_mult_32bits_float.v", 112, 119); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("test_mult_32bits_float.v", 24, 101); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("test_mult_32bits_float.v", 26, 122); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("test_mult_32bits_float.v", 28, 125); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor ("test_mult_32bits_float.v", 196, 149); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_mult_32bits_float.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor ("mult_32bits_float.v", 209, 177); // aR:G (JPanel:JComponent, bR:JFrame)

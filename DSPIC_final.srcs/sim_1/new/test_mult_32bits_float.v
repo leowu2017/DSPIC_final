@@ -3,8 +3,8 @@
 `include "../../sources_1/new/params.v"
 
 module test_mult_32bits_float();
-reg [`BITS_LAST:0]in1,in2;
-wire [`BITS_LAST:0]out;
+reg `BITS_RANGE in1,in2;
+wire `BITS_RANGE out;
 
 mult_32bits_float m1(out,in1,in2);
 
