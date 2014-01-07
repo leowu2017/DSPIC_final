@@ -319,3 +319,97 @@ selectCodeEditor ("mult_32bits_float.v", 250, 74); // aR:G (JPanel:JComponent, b
 // TclEventType: DG_GRAPH_STALE
 // Tcl Message: update_compile_order -fileset sources_1 update_compile_order -fileset sources_1 update_compile_order -fileset sim_1 
 // TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 144 seconds
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 335, 398); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor ("mult_32bits_float.v", 201, 165); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_32bits_float (mult_32bits_float.v)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_32bits_float (mult_32bits_float.v)]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+closeView (PAResourceItoP.PAViews_CODE, "Code"); // G:b
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_32bits_float (mult_32bits_float.v)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_32bits_float (mult_32bits_float.v)]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 4:19:09 PM
+selectCodeEditor ("mult_32bits_float.v", 62, 88); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 48 seconds
+selectCodeEditor ("mult_32bits_float.v", 122, 60); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 122, 60, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog]", 1, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceQtoZ.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// b:aB (bR:JFrame): Add Sources: addNotify
+selectRadioButton (PAResourceAtoH.AddSrcWizard_SPECIFY_HDL_AND_NETLIST_FILES_OR_DIRECTORIES, "Add or Create Design Sources"); // a:JRadioButton (JPanel:JComponent, b:aB)
+selectButton ((HResource) null, "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:aB)
+selectButton (PAResourceQtoZ.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:aB)
+// I:X (b:aB): Create Source File: addNotify
+setText (PAResourceAtoH.CreateSrcFileDialog_FILE_NAME, "add_32bits_float"); // am:JTextField (JPanel:JComponent, I:X)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:X)
+dismissDialog ("Create Source File"); // I:X (b:aB)
+selectButton ((HResource) null, "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:aB)
+// 'd' command handler elapsed time: 17 seconds
+dismissDialog ("Create Source File"); // I:X (b:aB)
+// Tcl Message: close [ open E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/add_32bits_float.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/add_32bits_float.v 
+// M:X (bR:JFrame): Define Module: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, M:X)
+// TclEventType: DG_GRAPH_STALE
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, D:JDialog)
+dismissDialog ("Define Module"); // M:X (bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, add_32bits_float (add_32bits_float.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, add_32bits_float (add_32bits_float.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, add_32bits_float (add_32bits_float.v)]", 3, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 4:20:28 PM
+selectCodeEditor ("add_32bits_float.v", 71, 396); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 135, 23); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("add_32bits_float.v", 210, 13); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("add_32bits_float.v", 24, 427); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("add_32bits_float.v", 148, 67); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("add_32bits_float.v", 156, 65); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("add_32bits_float.v", 156, 65, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("add_32bits_float.v", 270, 59); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH

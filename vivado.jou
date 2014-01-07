@@ -26,3 +26,6 @@ update_compile_order -fileset sim_1
 update_compile_order -fileset sources_1
 update_compile_order -fileset sources_1
 update_compile_order -fileset sim_1
+close [ open E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/add_32bits_float.v w ]
+add_files E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/add_32bits_float.v
+update_compile_order -fileset sources_1
