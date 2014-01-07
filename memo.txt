@@ -6,6 +6,16 @@ http://babbage.cs.qc.cuny.edu/IEEE-754/
 http://www.h-schmidt.net/FloatConverter/IEEE754.html
 
 ####################################################
+*Modules
+- to implement -
+add_32bits_float.v
+
+- to test -
+mult_32bits_float.v
+
+- finished -
+
+####################################################
 *16bits representation
 _ _____ ________
 0 00000 00000000
@@ -25,17 +35,6 @@ sign(1 bit)
      decimal point position(8 bits)
        ¡U
        number(21 bits)
-
-####################################################
-*Modules
-- to implement -
-
-mult_32bits_float.v
-add_32bits_float.v
-
-- to test -
-
-- finished -
 
 ####################################################
 ¤W¶Ç:

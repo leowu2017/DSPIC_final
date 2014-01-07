@@ -50,3 +50,11 @@ launch_xsim -simset sim_1 -mode behavioral
 launch_xsim -simset sim_1 -mode behavioral
 launch_xsim -simset sim_1 -mode behavioral
 launch_xsim -simset sim_1 -mode behavioral
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_xsim -simset sim_1 -mode behavioral
+launch_xsim -simset sim_1 -mode behavioral
+launch_xsim -simset sim_1 -mode behavioral
+launch_xsim -simset sim_1 -mode behavioral
+launch_xsim -simset sim_1 -mode behavioral
+close_sim
