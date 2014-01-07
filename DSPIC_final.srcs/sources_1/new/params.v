@@ -1,0 +1,1 @@
+`define TOTAL_BITS 32

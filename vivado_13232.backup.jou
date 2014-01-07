@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Mon Jan 06 21:14:32 2014
+# Process ID: 5172
+# Log file: E:/DSPIC_final/vivado.log
+# Journal file: E:/DSPIC_final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:\DSPIC_final\DSPIC_final.xpr}

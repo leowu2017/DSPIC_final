@@ -1,0 +1,321 @@
+/*
+
+Vivado v2013.3 (64-bit)
+SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+Process ID: 13232
+
+Current time: 	1/7/14 3:27:02 PM
+Time zone: 	China Standard Time (Asia/Taipei)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1680x1050
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_17 64-bit
+Java home: 	D:/Xilinx/Vivado/2013.3/tps/win64/jre
+
+User name: 	Incus
+User directory: E:/Leo/DSPIC_final
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+GUI Allocated memory:	122 mb
+GUI Max memory:		3,066 mb
+Engine Allocated memory: 489 mb
+
+*/
+
+// TclEventType: START_GUI
+minimizeFrame (PAResourceItoP.PAViews_TCL_CONSOLE, "Tcl Console"); // af:DockableFrame (FrameContainer:JideTabbedPane, bR:JFrame)
+// TclEventType: START_PROGRESS_DIALOG
+// ca:I (bR:JFrame):  Opening project 'E:\Leo\DSPIC_final\DSPIC_final.xpr' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 72 mb (+72866kb) [00:00:06]
+// [Engine Memory]: 413 mb (+281815kb) [00:00:06]
+// [Engine Memory]: 425 mb (+11976kb) [00:00:07]
+// [GUI Memory]: 72 mb (+534kb) [00:00:08]
+// [GUI Memory]: 76 mb (+4100kb) [00:00:08]
+// [Engine Memory]: 482 mb (+60469kb) [00:00:08]
+// [Engine Memory]: 487 mb (+5378kb) [00:00:08]
+// [Engine Memory]: 488 mb (+696kb) [00:00:09]
+// [Engine Memory]: 488 mb (+8kb) [00:00:09]
+// [GUI Memory]: 81 mb (+4449kb) [00:00:09]
+// [GUI Memory]: 84 mb (+3895kb) [00:00:09]
+// Tcl Message: open_project {E:\Leo\DSPIC_final\DSPIC_final.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// o:I (bR:JFrame): XilinxNotify - Available Updates: addNotify
+// [Engine Memory]: 489 mb (+516kb) [00:00:10]
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 3:27:03 PM
+// TclEventType: STOP_PROGRESS_DIALOG
+// [Engine Memory]: 505 mb (+17666kb) [00:00:12]
+// TclEventType: STOP_PROGRESS_DIALOG
+selectButton (RDIResource.UpdateDialog_CLOSE, "Close"); // a:JButton (JPanel:JComponent, o:I)
+dismissDialog ("XilinxNotify - Available Updates"); // o:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 3:41:32 PM
+// [Engine Memory]: 539 mb (+34951kb) [00:14:45]
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 3:56:52 PM
+// Elapsed time: 2499 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 3, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 2); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 2, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceQtoZ.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+// Elapsed time: 18 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceQtoZ.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+// Elapsed time: 70 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceQtoZ.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// b:aB (bR:JFrame): Add Sources: addNotify
+// Elapsed time: 15 seconds
+selectButton ((HResource) null, "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:aB)
+selectButton (PAResourceQtoZ.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:aB)
+// I:X (b:aB): Create Source File: addNotify
+setText (PAResourceAtoH.CreateSrcFileDialog_FILE_NAME, "parameter"); // am:JTextField (JPanel:JComponent, I:X)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:X)
+dismissDialog ("Create Source File"); // I:X (b:aB)
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 4:10:48 PM
+selectButton (PAResourceQtoZ.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:aB)
+// I:X (b:aB): Create Source File: addNotify
+setText (PAResourceAtoH.CreateSrcFileDialog_FILE_NAME, "mult_32bits_float"); // am:JTextField (JPanel:JComponent, I:X)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:X)
+dismissDialog ("Create Source File"); // I:X (b:aB)
+selectButton ((HResource) null, "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:aB)
+// 'd' command handler elapsed time: 40 seconds
+// [Engine Memory]: 563 mb (+25763kb) [00:44:09]
+dismissDialog ("Create Source File"); // I:X (b:aB)
+dismissDialog ("Create Source File"); // I:X (b:aB)
+// Tcl Message: close [ open E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/parameter.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/parameter.v 
+// Tcl Message: close [ open E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/mult_32bits_float.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/mult_32bits_float.v 
+// M:X (bR:JFrame): Define Modules: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, M:X)
+// TclEventType: DG_GRAPH_STALE
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, D:JDialog)
+dismissDialog ("Define Modules"); // M:X (bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, parameter.v]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, parameter.v]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 4:11:10 PM
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 3); // n:f (u:JPanel, bR:JFrame)
+// [GUI Memory]: 85 mb (+304kb) [00:44:26]
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, mult_32bits_float.v]", 4); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, mult_32bits_float.v]", 4); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, mult_32bits_float.v]", 4, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 4:11:19 PM
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, parameter.v]", 5); // n:f (u:JPanel, bR:JFrame)
+// [Engine Memory]: 564 mb (+278kb) [00:44:50]
+// Elapsed time: 34 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, parameter.v]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, parameter.v]", 2, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceQtoZ.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenuItem (RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// aC:I (bR:JFrame): Remove Sources: addNotify
+selectCheckBox (PAResourceQtoZ.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", false, true); // c:JCheckBox (JPanel:JComponent, aC:I): FALSE
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aC:I)
+// 'c' command handler elapsed time: 3 seconds
+closeView (PAResourceItoP.PAViews_CODE, "Code"); // G:b
+dismissDialog ("Remove Sources"); // aC:I (bR:JFrame)
+// Tcl Message: file delete -force E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/parameter.v 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aC:I (bR:JFrame): Remove Sources: addNotify
+// ca:I (aC:I):  Remove Sources : addNotify
+// Tcl Message: remove_files E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/parameter.v 
+dismissDialog ("Remove Sources"); // ca:I (aC:I)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 3); // n:f (u:JPanel, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceQtoZ.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// b:aB (bR:JFrame): Add Sources: addNotify
+selectButton ((HResource) null, "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:aB)
+selectButton (PAResourceQtoZ.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:aB)
+// I:X (b:aB): Create Source File: addNotify
+setText (PAResourceAtoH.CreateSrcFileDialog_FILE_NAME, "params"); // am:JTextField (JPanel:JComponent, I:X)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:X)
+dismissDialog ("Create Source File"); // I:X (b:aB)
+selectButton ((HResource) null, "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:aB)
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog ("Create Source File"); // I:X (b:aB)
+// Tcl Message: close [ open E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/params.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/params.v 
+// M:X (bR:JFrame): Define Module: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, M:X)
+// TclEventType: DG_GRAPH_STALE
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, D:JDialog)
+dismissDialog ("Define Module"); // M:X (bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 update_compile_order -fileset sim_1 
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // n:f (u:JPanel, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, mult_32bits_float.v]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, params (params.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, params (params.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, params (params.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, params (params.v)]", 3, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 4:12:36 PM
+selectCodeEditor ("params.v", 118, 534); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 90, 498); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 565 mb (+1290kb) [00:45:50]
+// [Engine Memory]: 565 mb (+352kb) [00:45:58]
+selectCodeEditor ("params.v", 187, 8); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 567 mb (+2109kb) [00:46:07]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 update_compile_order -fileset sources_1 update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectCodeEditor ("params.v", 340, 328); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 269, 46); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 141, 16); // aR:G (JPanel:JComponent, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, mult_32bits_float.v]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, mult_32bits_float.v]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// [GUI Memory]: 87 mb (+2438kb) [00:46:32]
+selectCodeEditor ("mult_32bits_float.v", 97, 20); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// [Engine Memory]: 578 mb (+10944kb) [00:46:34]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor ("params.v", 69, 489); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor ("mult_32bits_float.v", 158, 11); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 157, 14); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+closeView (PAResourceItoP.PAViews_CODE, "Code"); // G:b
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog]", 1); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 3); // n:f (u:JPanel, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 147, 31); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 17 seconds
+selectCodeEditor ("mult_32bits_float.v", 148, 98); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 165, 89); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 180, 71); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 47 seconds
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, mult_32bits_float.v]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, mult_32bits_float.v]", 3, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 4:15:14 PM
+selectTable (PAResourceAtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; xq7z045rf676-2I ; constrs_1 ; Vivado Implementation Defaults (Vivado Implementation 2013) ; Not started ; 0 ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults", 1); // X:ad (JViewport:JComponent, bR:JFrame)
+selectTab ((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 79, 115); // dz:G (JPanel:JComponent, bR:JFrame)
+selectTab ((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+// Elapsed time: 43 seconds
+selectCodeEditor ("mult_32bits_float.v", 250, 74); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 92 mb (+5088kb) [00:49:11]
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 update_compile_order -fileset sources_1 update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
