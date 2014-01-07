@@ -1,7 +1,39 @@
+####################################################
 *Split-radix FFT Algorithms
 http://cnx.org/content/m12031/latest/
 
+####################################################
+*16bits representation(21 bits)
+____ _ ________________
+0000 0 0000000000000000
+¡ô   ¡ô¡ô
+decimal point position(4 bits)
+     ¡U¡U
+     sign(1 bit)
+       ¡U
+       number(16 bits)
 
+*32bits representation(38 bits)
+_____ _ ________________________________
+00000 0 00000000000000000000000000000000
+¡ô   ¡ô¡ô
+decimal point position(5 bits)
+     ¡U¡U
+     sign(1 bit)
+       ¡U
+       number(32 bits)
+
+####################################################
+*Modules
+- to implement -
+mult_32bits_float.v
+add_32bits_float.v
+
+- to test -
+
+- finished -
+
+####################################################
 ¤W¶Ç:
 commit -> push
 
