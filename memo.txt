@@ -1,9 +1,10 @@
 ####################################################
 *Split-radix FFT Algorithms
 http://cnx.org/content/m12031/latest/
+
 *Floating point converter
-http://babbage.cs.qc.cuny.edu/IEEE-754/
 http://www.h-schmidt.net/FloatConverter/IEEE754.html
+http://babbage.cs.qc.cuny.edu/IEEE-754/
 
 ####################################################
 *Modules
@@ -16,16 +17,6 @@ mult_32bits_float.v
 - finished -
 
 ####################################################
-*16bits representation
-_ _____ ________
-0 00000 00000000
-¡ô   ¡ô¡ô
-sign(1 bit)
-     ¡U¡U
-     decimal point position(5 bits)
-       ¡U
-       number(10 bits)
-
 *32bits representation
 _ ________ _____________________
 0 00000000 000000000000000000000
