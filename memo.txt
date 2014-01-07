@@ -1,6 +1,9 @@
 ####################################################
 *Split-radix FFT Algorithms
 http://cnx.org/content/m12031/latest/
+*Floating point converter
+http://babbage.cs.qc.cuny.edu/IEEE-754/
+http://www.h-schmidt.net/FloatConverter/IEEE754.html
 
 ####################################################
 *16bits representation

@@ -418,3 +418,42 @@ selectCodeEditor ("add_32bits_float.v", 76, 81); // aR:G (JPanel:JComponent, bR:
 // HMemoryUtils.trashcanNow. Current time: 1/7/14 4:26:52 PM
 // [GUI Memory]: 93 mb (+1171kb) [01:21:55]
 // HMemoryUtils.trashcanNow. Current time: 1/7/14 4:56:53 PM
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 5:26:53 PM
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 5:56:53 PM
+// Elapsed time: 5742 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, params.v]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, params.v]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 5:58:58 PM
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, params.v]", 2); // n:f (u:JPanel, bR:JFrame)
+selectCodeEditor ("params.v", 136, 14); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 81, 16); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 578 mb (+323kb) [02:55:35]
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 6:26:53 PM
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 6:56:53 PM
+// [Engine Memory]: 579 mb (+1314kb) [03:47:27]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 4533 seconds
+selectCodeEditor ("params.v", 166, 103); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
