@@ -67,3 +67,8 @@ update_compile_order -fileset sources_1
 launch_xsim -simset sim_1 -mode behavioral
 launch_xsim -simset sim_1 -mode behavioral
 launch_xsim -simset sim_1 -mode behavioral
+close [ open E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/butterfly.v w ]
+add_files E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/butterfly.v
+close [ open E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/LUT_twiddle.v w ]
+add_files E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/LUT_twiddle.v
+update_compile_order -fileset sources_1

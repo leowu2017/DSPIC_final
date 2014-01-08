@@ -2598,3 +2598,127 @@ selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 213, 73); 
 dismissDialog ("Run Simulation"); // e:ca (bR:JFrame)
 selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 213, 73); // dz:G (JPanel:JComponent, bR:JFrame)
 // HMemoryUtils.trashcanNow. Current time: 1/8/14 1:59:58 PM
+// Elapsed time: 390 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 2:05:08 PM
+closeView (RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 21"); // v:aA
+closeView (PAResourceItoP.PAViews_CODE, "Code"); // G:b
+closeView (PAResourceItoP.PAViews_CODE, "Code"); // G:b
+closeView (PAResourceItoP.PAViews_CODE, "Code"); // G:b
+closeView (PAResourceItoP.PAViews_CODE, "Code"); // G:b
+closeView (PAResourceItoP.PAViews_CODE, "Code"); // G:b
+closeFrame (PAResourceItoP.PAViews_OBJECTS, "Objects"); // af:DockableFrame (FrameContainer:JideTabbedPane, bR:JFrame)
+selectTab ((HResource) null, (HResource) null, "Sources", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_32bits_float (mult_32bits_float.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, add_32bits_float (add_32bits_float.v)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog]", 1, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceQtoZ.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// b:aB (bR:JFrame): Add Sources: addNotify
+selectRadioButton (PAResourceAtoH.AddSrcWizard_SPECIFY_HDL_AND_NETLIST_FILES_OR_DIRECTORIES, "Add or Create Design Sources"); // a:JRadioButton (JPanel:JComponent, b:aB)
+selectButton ((HResource) null, "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:aB)
+selectButton (PAResourceQtoZ.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:aB)
+// I:X (b:aB): Create Source File: addNotify
+// Elapsed time: 11 seconds
+setText (PAResourceAtoH.CreateSrcFileDialog_FILE_NAME, "LUT_twiddle"); // am:JTextField (JPanel:JComponent, I:X)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:X)
+dismissDialog ("Create Source File"); // I:X (b:aB)
+selectButton (PAResourceQtoZ.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:aB)
+// I:X (b:aB): Create Source File: addNotify
+setText (PAResourceAtoH.CreateSrcFileDialog_FILE_NAME, "butterfly"); // am:JTextField (JPanel:JComponent, I:X)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:X)
+dismissDialog ("Create Source File"); // I:X (b:aB)
+selectButton ((HResource) null, "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:aB)
+// 'd' command handler elapsed time: 23 seconds
+dismissDialog ("Create Source File"); // I:X (b:aB)
+dismissDialog ("Create Source File"); // I:X (b:aB)
+// Tcl Message: close [ open E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/butterfly.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/butterfly.v 
+// Tcl Message: close [ open E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/LUT_twiddle.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/LUT_twiddle.v 
+// M:X (bR:JFrame): Define Modules: addNotify
+selectList (PAResourceAtoH.DefineModulesDialog_NEW_SOURCE_FILES, "LUT_twiddle.v", 1); // S:a (JViewport:JComponent, M:X)
+selectList (PAResourceAtoH.DefineModulesDialog_NEW_SOURCE_FILES, "butterfly.v", 0); // S:a (JViewport:JComponent, M:X)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, M:X)
+// TclEventType: DG_GRAPH_STALE
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, D:JDialog)
+dismissDialog ("Define Modules"); // M:X (bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_twiddle (LUT_twiddle.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_twiddle (LUT_twiddle.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_twiddle (LUT_twiddle.v)]", 3, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 2:05:50 PM
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 5); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 5, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 2:05:51 PM
+selectCodeEditor ("butterfly.v", 16, 396); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 103, 47); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, add_32bits_float (add_32bits_float.v)]", 4); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, add_32bits_float (add_32bits_float.v)]", 4, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 2:06:02 PM
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_twiddle (LUT_twiddle.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_twiddle (LUT_twiddle.v)]", 3, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("LUT_twiddle.v", 3, 28); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 213, 62); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 110, 49); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 142, 47); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 119, 47); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 2:29:58 PM
+// Elapsed time: 2064 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_twiddle (LUT_twiddle.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 172, 42); // aR:G (JPanel:JComponent, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 2:59:58 PM
+// Elapsed time: 1338 seconds
+selectCodeEditor ("LUT_twiddle.v", 219, 364); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor ("LUT_twiddle.v", 54, 60); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 24, 440); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor ("LUT_twiddle.v", 116, 48); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 155 seconds
+selectCodeEditor ("LUT_twiddle.v", 212, 428); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor ("LUT_twiddle.v", 195, 536); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH

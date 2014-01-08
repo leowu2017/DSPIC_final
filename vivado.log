@@ -887,3 +887,8 @@ $finish called at time : 3 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/
 xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 932.438 ; gain = 0.000
 INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_mult_32bits_float_behav' loaded.
 launch_xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 932.438 ; gain = 0.000
+close [ open E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/butterfly.v w ]
+add_files E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/butterfly.v
+close [ open E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/LUT_twiddle.v w ]
+add_files E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/LUT_twiddle.v
+update_compile_order -fileset sources_1
