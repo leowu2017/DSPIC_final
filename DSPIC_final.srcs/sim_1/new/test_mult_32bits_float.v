@@ -23,6 +23,9 @@ in1 = `TEST_NUM1;
 in2 = `TEST_NUM2;
 $monitor("%0dns: A:%b"  , $stime, `TEST_NUM3);
 #1
+in1 = `TEST_NUM4;
+in2 = `TEST_NUM5;
+$monitor("%0dns: A:%b"  , $stime, `TEST_NUM6);
 $finish();
 end
 
