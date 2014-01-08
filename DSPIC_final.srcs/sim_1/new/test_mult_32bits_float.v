@@ -12,7 +12,16 @@ initial
 begin
 in1 = `NUM0;
 in2 = `NUM0;
-$monitor("%0dns: %b"  , $stime, out);
+$monitor("%0dns: A:%b"  , $stime, `NUM0);
+$monitor("%0dns: R:%b"  , $stime, out);
+#1
+in1 = `NUM1;
+in2 = `NUM1;
+$monitor("%0dns: A:%b"  , $stime, `NUM1);
+#1
+in1 = `TEST_NUM1;
+in2 = `TEST_NUM2;
+$monitor("%0dns: A:%b"  , $stime, `TEST_NUM3);
 #1
 $finish();
 end

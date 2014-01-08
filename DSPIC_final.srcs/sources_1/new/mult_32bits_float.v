@@ -10,12 +10,12 @@ reg [`EXPONENT_BITS-1:0]exponent_result;
 wire [`FRACTION_BITS+`FRACTION_BITS-1:0]fraction_mul;
 wire [`FRACTION_BITS:0]fraction_add;
 reg [`FRACTION_BITS-1:0]fraction_round,fraction_result;
-wire carry;
+wire carry,borrow;
 
 assign out = {sign, exponent_result, fraction_result};
 
 assign sign = in1[`SIGN_BITS_START] ^ in2[`SIGN_BITS_START];
-assign exponent_add = in1`EXPONENT_BITS_RANGE + in2`EXPONENT_BITS_RANGE - `EXPONENT_BITS_BIAS;
+assign {borrow,exponent_add} = {1'b1,in1`EXPONENT_BITS_RANGE} + {1'b0,in2`EXPONENT_BITS_RANGE} - {1'b0,`EXPONENT_BITS_BIAS};
 assign fraction_mul = in1`FRACTION_BITS_RANGE * in2`FRACTION_BITS_RANGE;
 assign fraction_add = fraction_round + in1`FRACTION_BITS_RANGE + in2`FRACTION_BITS_RANGE;
 assign carry = fraction_add[`FRACTION_BITS];
@@ -28,20 +28,26 @@ begin
     endcase
 end
 
-always@(fraction_add or carry)
+always@(fraction_add or carry or borrow)
 begin
-    case(carry)
-    1'b1: fraction_result = fraction_add[`FRACTION_BITS-1:0] >> 1;
-    1'b0: fraction_result = fraction_add[`FRACTION_BITS-1:0];
-    endcase
+    if(borrow)
+        case(carry)
+        1'b1: fraction_result = fraction_add[`FRACTION_BITS-1:0] >> 1;
+        1'b0: fraction_result = fraction_add[`FRACTION_BITS-1:0];
+        endcase
+    else
+        fraction_result = `FRACTION_BITS'd0;
 end
 
-always@(exponent_add or carry)
+always@(exponent_add or carry or borrow)
 begin
-    case(carry)
-    1'b1: exponent_result = exponent_add + 1;
-    1'b0: exponent_result = exponent_add;
-    endcase
+    if(borrow)
+        case(carry)
+        1'b1: exponent_result = exponent_add + 1;
+        1'b0: exponent_result = exponent_add;
+        endcase
+    else
+        exponent_result = `EXPONENT_BITS'd0;
 end
 
 endmodule
