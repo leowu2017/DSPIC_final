@@ -2597,3 +2597,4 @@ selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 213, 73); 
 // Tcl Message: launch_xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 932.438 ; gain = 0.000 
 dismissDialog ("Run Simulation"); // e:ca (bR:JFrame)
 selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 213, 73); // dz:G (JPanel:JComponent, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 1:59:58 PM
