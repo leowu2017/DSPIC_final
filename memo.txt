@@ -12,11 +12,11 @@ http://babbage.cs.qc.cuny.edu/IEEE-754/
 add_32bits_float.v
 sub_32bits_float.v ?
 div_32bits_float.v ?
-LUT_twiddle.v
 butterfly.v
 fft.v
 
 - to test -
+LUT_twiddle.v
 
 - finished -
 mult_32bits_float.v

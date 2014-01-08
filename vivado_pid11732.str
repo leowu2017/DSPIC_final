@@ -2722,3 +2722,142 @@ selectCodeEditor ("LUT_twiddle.v", 195, 536); // aR:G (JPanel:JComponent, bR:JFr
 // TclEventType: DG_UPDATE_GRAPH
 // TclEventType: DG_ANALYSIS_MSG_RESET
 // TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 36 seconds
+selectCodeEditor ("LUT_twiddle.v", 376, 429); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 82, 68); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_32bits_float (mult_32bits_float.v)]", 4); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_32bits_float (mult_32bits_float.v)]", 4); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_32bits_float (mult_32bits_float.v)]", 4, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 3:07:09 PM
+selectCodeEditor ("mult_32bits_float.v", 133, 22); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 60, 26); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 65, 86); // aR:G (JPanel:JComponent, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, params.v]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, params.v]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 3:07:26 PM
+selectCodeEditor ("params.v", 93, 45); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 93, 45, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("LUT_twiddle.v", 78, 83); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 78, 83, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+// Elapsed time: 19 seconds
+selectCodeEditor ("params.v", 220, 363); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 19 seconds
+selectCodeEditor ("params.v", 31, 253); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectCodeEditor ("params.v", 156, 300); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 20 seconds
+selectCodeEditor ("LUT_twiddle.v", 61, 101); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 39, 101); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor ("LUT_twiddle.v", 100, 129); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 42, 88); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 77, 125); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor ("LUT_twiddle.v", 218, 521); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor ("LUT_twiddle.v", 210, 519); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 40, 218); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 79, 219); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 42, 220); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 76, 101); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 44, 216); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor ("LUT_twiddle.v", 23, 91); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 23, 91, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("LUT_twiddle.v", 164, 91); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 164, 91, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("LUT_twiddle.v", 104, 224); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 182, 216); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 44, 237); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 49, 255); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 46, 271); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 46, 289); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 46, 309); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 48, 337); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 47, 355); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 48, 365); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 49, 389); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 47, 408); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 46, 427); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 46, 449); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 46, 467); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 46, 483); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 45, 505); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 47, 503); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 101, 234); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 25 seconds
+selectCodeEditor ("LUT_twiddle.v", 95, 138); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 45, 503); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 43, 523); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 26, 303); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 29, 315); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 60, 559); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 113, 106); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 200, 545); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 40, 269); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 48, 259); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 226, 85); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 226, 85, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("LUT_twiddle.v", 113, 364); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 48, 369); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 48, 276); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 48, 293); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 48, 313); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 47, 331); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 48, 354); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 47, 371); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 47, 383); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 45, 410); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 47, 411); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 47, 425); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 44, 442); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 45, 446, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("LUT_twiddle.v", 46, 446); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 46, 466); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 47, 484); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 47, 505); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 47, 517); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("LUT_twiddle.v", 46, 543); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
