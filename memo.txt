@@ -16,10 +16,10 @@ butterfly.v
 fft.v
 
 - to test -
-LUT_twiddle.v
 
 - finished -
 mult_32bits_float.v
+LUT_twiddle.v
 
 ####################################################
 *32bits representation
