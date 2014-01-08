@@ -11,7 +11,10 @@ http://www.h-schmidt.net/FloatConverter/IEEE754.html
 add_32bits_float.v
 
 - to test -
-mult_32bits_float.v
+*mult_32bits_float.v
+-NUM0 = NUM0 * NUM0 Wrong!
+NUM1 = NUM1 * NUM1 OK
+TEST_NUM3 = TEST_NUM1 * TEST_NUM2 OK
 
 - finished -
 

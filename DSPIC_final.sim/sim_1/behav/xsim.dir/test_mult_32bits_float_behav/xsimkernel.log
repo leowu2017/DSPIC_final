@@ -1,5 +1,3 @@
-Running: xsim.dir/test_mult_32bits_float_behav/xsimk.exe -simmode gui -wdb test_mult_32bits_float_behav.wdb -simrunnum 0 -socket 61566
+Running: xsim.dir/test_mult_32bits_float_behav/xsimk.exe -simmode gui -wdb test_mult_32bits_float_behav.wdb -simrunnum 0 -socket 57040
 Design successfully loaded
-Design Loading CPU Usage: 77 ms
-Simulation completed
-Simulation CPU Usage: 77 ms
+Design Loading CPU Usage: 46 ms

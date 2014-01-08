@@ -1,0 +1,1553 @@
+/*
+
+Vivado v2013.3 (64-bit)
+SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+Process ID: 11732
+
+Current time: 	1/7/14 9:00:03 PM
+Time zone: 	China Standard Time (Asia/Taipei)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1680x1050
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_17 64-bit
+Java home: 	D:/Xilinx/Vivado/2013.3/tps/win64/jre
+
+User name: 	Incus
+User directory: E:/Leo/DSPIC_final
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+GUI Allocated memory:	122 mb
+GUI Max memory:		3,066 mb
+Engine Allocated memory: 528 mb
+
+*/
+
+// TclEventType: START_GUI
+minimizeFrame (PAResourceItoP.PAViews_TCL_CONSOLE, "Tcl Console"); // af:DockableFrame (FrameContainer:JideTabbedPane, bR:JFrame)
+// TclEventType: START_PROGRESS_DIALOG
+// ca:I (bR:JFrame):  Opening project 'E:\Leo\DSPIC_final\DSPIC_final.xpr' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {E:\Leo\DSPIC_final\DSPIC_final.xpr} 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 67 mb (+68189kb) [00:00:07]
+// [Engine Memory]: 409 mb (+277359kb) [00:00:07]
+// [Engine Memory]: 423 mb (+14462kb) [00:00:07]
+// [Engine Memory]: 427 mb (+4349kb) [00:00:08]
+// [Engine Memory]: 428 mb (+983kb) [00:00:08]
+// [GUI Memory]: 70 mb (+2943kb) [00:00:08]
+// [Engine Memory]: 430 mb (+2101kb) [00:00:08]
+// [Engine Memory]: 486 mb (+58429kb) [00:00:09]
+// [Engine Memory]: 487 mb (+2007kb) [00:00:09]
+// [Engine Memory]: 490 mb (+2953kb) [00:00:09]
+// [Engine Memory]: 495 mb (+4640kb) [00:00:09]
+// [GUI Memory]: 73 mb (+2472kb) [00:00:09]
+// [Engine Memory]: 506 mb (+12328kb) [00:00:09]
+// [GUI Memory]: 78 mb (+5571kb) [00:00:09]
+// [Engine Memory]: 517 mb (+10661kb) [00:00:09]
+// [GUI Memory]: 82 mb (+4775kb) [00:00:09]
+// [Engine Memory]: 521 mb (+4694kb) [00:00:09]
+// [GUI Memory]: 86 mb (+3979kb) [00:00:09]
+// [Engine Memory]: 524 mb (+2949kb) [00:00:09]
+// [Engine Memory]: 528 mb (+3952kb) [00:00:09]
+// Tcl Message: open_project {E:\Leo\DSPIC_final\DSPIC_final.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// o:I (bR:JFrame): XilinxNotify - Available Updates: addNotify
+// TclEventType: STOP_PROGRESS_DIALOG
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 9:00:04 PM
+// [Engine Memory]: 538 mb (+10948kb) [00:00:11]
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+selectButton (RDIResource.UpdateDialog_CLOSE, "Close"); // a:JButton (JPanel:JComponent, o:I)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 538 mb (+225kb) [00:00:13]
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+dismissDialog ("XilinxNotify - Available Updates"); // o:I (bR:JFrame)
+// [Engine Memory]: 539 mb (+1134kb) [00:00:15]
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_mult_32bits_float (test_mult_32bits_float.v)]", 8); // n:f (u:JPanel, bR:JFrame)
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_mult_32bits_float (test_mult_32bits_float.v)]", 8); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_mult_32bits_float (test_mult_32bits_float.v)]", 8); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_32bits_float (mult_32bits_float.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_32bits_float (mult_32bits_float.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_32bits_float (mult_32bits_float.v)]", 3, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 9:00:20 PM
+selectCodeEditor ("mult_32bits_float.v", 317, 276); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 540 mb (+331kb) [00:00:31]
+closeView (PAResourceItoP.PAViews_CODE, "Code"); // G:b
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Verilog]", 7); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Verilog, params_sim.v]", 8); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_mult_32bits_float (test_mult_32bits_float.v)]", 10); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Verilog, params_sim.v]", 8); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Verilog, params_sim.v]", 8, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 9:00:31 PM
+// [Engine Memory]: 541 mb (+884kb) [00:00:38]
+// [Engine Memory]: 541 mb (+28kb) [00:00:38]
+selectCodeEditor ("params_sim.v", 208, 101); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 354, 30); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 546 mb (+5894kb) [00:00:47]
+// Elapsed time: 21 seconds
+selectCodeEditor ("params_sim.v", 65, 22); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 387, 33); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 547 mb (+749kb) [00:01:35]
+// [Engine Memory]: 547 mb (+229kb) [00:02:25]
+// [Engine Memory]: 551 mb (+3633kb) [00:02:32]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 554 mb (+3268kb) [00:02:45]
+// Elapsed time: 99 seconds
+selectCodeEditor ("params_sim.v", 450, 66); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 434, 79); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor ("params_sim.v", 168, 105); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 27 seconds
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, add_32bits_float (add_32bits_float.v)]", 9); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_mult_32bits_float (test_mult_32bits_float.v)]", 8); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_mult_32bits_float (test_mult_32bits_float.v), m1 - mult_32bits_float (mult_32bits_float.v)]", 9); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_mult_32bits_float (test_mult_32bits_float.v)]", 8); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_mult_32bits_float (test_mult_32bits_float.v)]", 8, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 9:03:43 PM
+selectCodeEditor ("test_mult_32bits_float.v", 41, 239); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 556 mb (+2289kb) [00:03:58]
+// TclEventType: DG_UPDATE_GRAPH
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// [Engine Memory]: 567 mb (+11206kb) [00:03:59]
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// Tcl Message: Vivado Simulator 2013.3 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved. Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj work.test_mult_32bits_float work.glbl  Multi-threading is on. Using 2 slave threads. Determining compilation order of HDL files. 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+selectButton (RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, e:ca)
+// Tcl Message: INFO: [Runs 36-26] xelab completed. INFO: [Vivado 12-1390] *** Running xsim     with args "test_mult_32bits_float_behav -key {Behavioral:sim_1:Functional:test_mult_32bits_float} -tclbatch {test_mult_32bits_float.tcl} -log {test_mult_32bits_float_behav.log}" 
+// Tcl Message: Vivado Simulator 2013.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// [Engine Memory]: 568 mb (+1425kb) [00:04:10]
+// [Engine Memory]: 568 mb (+385kb) [00:04:10]
+// [Engine Memory]: 573 mb (+4509kb) [00:04:10]
+// [Engine Memory]: 576 mb (+3883kb) [00:04:11]
+// [Engine Memory]: 578 mb (+2105kb) [00:04:11]
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// [Engine Memory]: 580 mb (+1417kb) [00:04:12]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: $finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_mult_32bits_float.v" Line 16 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 804.379 ; gain = 2.766 
+// Tcl Message: INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_mult_32bits_float_behav' loaded. 
+// Tcl Message: launch_xsim: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 804.379 ; gain = 2.766 
+dismissDialog ("Run Simulation"); // e:ca (bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// Elapsed time: 440 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("test_mult_32bits_float.v", 72, 280); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("test_mult_32bits_float.v", 108, 264); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 581 mb (+1806kb) [00:11:45]
+// Elapsed time: 232 seconds
+selectCodeEditor ("test_mult_32bits_float.v", 138, 266); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("test_mult_32bits_float.v", 126, 255); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("test_mult_32bits_float.v", 67, 272); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor ("test_mult_32bits_float.v", 64, 273); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor ("test_mult_32bits_float.v", 94, 280); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 9:16:28 PM
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+closeView (RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // v:aA
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 9:16:29 PM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// Tcl Message: Vivado Simulator 2013.3 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved. Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj work.test_mult_32bits_float work.glbl  Multi-threading is on. Using 2 slave threads. Determining compilation order of HDL files. 
+// TclEventType: LAUNCH_SIM
+selectButton (RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, e:ca)
+// Tcl Message: INFO: [Runs 36-26] xelab completed. INFO: [Vivado 12-1390] *** Running xsim     with args "test_mult_32bits_float_behav -key {Behavioral:sim_1:Functional:test_mult_32bits_float} -tclbatch {test_mult_32bits_float.tcl} -log {test_mult_32bits_float_behav.log}" 
+// Tcl Message: Vivado Simulator 2013.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: 0ns: 00101010100010010000110001101000 $finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_mult_32bits_float.v" Line 17 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_mult_32bits_float_behav' loaded. 
+// Tcl Message: launch_xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 804.379 ; gain = 0.000 
+dismissDialog ("Run Simulation"); // e:ca (bR:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 231, 10); // dz:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 220, 70); // dz:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 221, 9); // dz:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 88 mb (+2106kb) [00:16:57]
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 335, 103); // dz:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 226, 159); // dz:G (JPanel:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params_sim.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("params_sim.v", 102, 130); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 1, 122); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 13 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 9:17:17 PM
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params_sim.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("params_sim.v", 346, 129); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor ("test_mult_32bits_float.v", 94, 256); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+// [Engine Memory]: 584 mb (+2793kb) [00:17:35]
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// [Engine Memory]: 585 mb (+401kb) [00:17:36]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 9:17:31 PM
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+closeView (RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 2"); // v:aA
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 9:17:32 PM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// TclEventType: LAUNCH_SIM
+selectButton (RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, e:ca)
+// Tcl Message: Waiting for 2 sub-compilation(s) to finish... Built simulation snapshot test_mult_32bits_float_behav 
+// Tcl Message: INFO: [Runs 36-26] xelab completed. INFO: [Vivado 12-1390] *** Running xsim     with args "test_mult_32bits_float_behav -key {Behavioral:sim_1:Functional:test_mult_32bits_float} -tclbatch {test_mult_32bits_float.tcl} -log {test_mult_32bits_float_behav.log}" 
+// Tcl Message: Vivado Simulator 2013.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 333, 46); // dz:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: 0ns: 11001101000111011001101010110000 $finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_mult_32bits_float.v" Line 17 
+// Tcl Message: INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_mult_32bits_float_behav' loaded. 
+// Tcl Message: launch_xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 804.379 ; gain = 0.000 
+dismissDialog ("Run Simulation"); // e:ca (bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params_sim.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 383, 66); // dz:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 219, 4); // dz:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 218, 43); // dz:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 227, 8); // dz:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 284, 125); // dz:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 234, 139); // dz:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 135, 127); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 0, 123); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 206 seconds
+selectCodeEditor ("params_sim.v", 349, 125); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor ("params_sim.v", 434, 136); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor ("params_sim.v", 204, 153); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 586 mb (+1789kb) [00:22:35]
+// Elapsed time: 180 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// [Engine Memory]: 587 mb (+831kb) [00:24:57]
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params_sim.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 9:24:54 PM
+// Elapsed time: 10 seconds
+selectTab ((HResource) null, (HResource) null, "Sources", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_32bits_float (mult_32bits_float.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_32bits_float (mult_32bits_float.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_32bits_float (mult_32bits_float.v)]", 3, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 9:25:03 PM
+selectCodeEditor ("mult_32bits_float.v", 322, 260); // aR:G (JPanel:JComponent, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 9:29:53 PM
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 9:59:54 PM
+// Elapsed time: 3056 seconds
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1146, 231); // dz:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 296 seconds
+selectCodeEditor ("mult_32bits_float.v", 348, 166); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor ("mult_32bits_float.v", 233, 156); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 35, 179); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 210, 179); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor ("mult_32bits_float.v", 320, 313); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 481, 283); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 479, 290); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 248, 176); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 48, 327); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params_sim.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// [Engine Memory]: 594 mb (+7016kb) [01:22:35]
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 2); // n:f (u:JPanel, bR:JFrame)
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 2); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, params.v]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, params.v]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 10:22:35 PM
+selectCodeEditor ("params.v", 360, 180); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 152, 181); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 112, 218); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 173, 169); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 173, 169, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 173, 175); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 173, 175, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 117, 327); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 313, 236); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 313, 236, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 648, 236); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 138, 333); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor ("mult_32bits_float.v", 189, 312); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 584, 337); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 71, 327); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 71, 327, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 246, 230); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectCodeEditor ("mult_32bits_float.v", 243, 349); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 24 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params_sim.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("params_sim.v", 362, 128); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// Elapsed time: 116 seconds
+selectCodeEditor ("mult_32bits_float.v", 113, 310); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 114, 318); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 92, 317); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 92, 317, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 114, 377); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 110, 352); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 150, 314); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 150, 342); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 250, 333); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 166, 356); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 21 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("params.v", 93, 220); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params.v", 93, 220, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor ("mult_32bits_float.v", 468, 350); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 468, 350, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 566, 349); // aR:G (JPanel:JComponent, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 10:29:54 PM
+// Elapsed time: 664 seconds
+selectCodeEditor ("mult_32bits_float.v", 366, 353); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 705, 348); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor ("mult_32bits_float.v", 89, 348); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 739, 351); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectCodeEditor ("mult_32bits_float.v", 611, 301); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 443, 294); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 465, 299); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 89 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 10:41:20 PM
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+closeView (RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 3"); // v:aA
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 10:41:21 PM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details. ERROR: [Common 17-69] Command failed: Failed to compile the design! 
+// HOptionPane Error: 'ERROR: [Common 17-69] Command failed: Failed to compile the design!  (Run Simulation)'
+selectButton ((HResource) null, "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, launch_xsim -simset sim_1 -mode behavioral. , [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.. ]", 3); // N:f (JViewport:JComponent, bR:JFrame)
+expandTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1]", 11); // N:f (JViewport:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details. ERROR: [Common 17-69] Command failed: Failed to compile the design! 
+// HOptionPane Error: 'ERROR: [Common 17-69] Command failed: Failed to compile the design!  (Run Simulation)'
+// a:a (bR:JFrame): Critical Messages: addNotify
+selectButton ((HResource) null, "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation]", 10); // N:f (JViewport:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 239, 339); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 594 mb (+90kb) [01:42:12]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// [GUI Memory]: 88 mb (+160kb) [01:42:23]
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details. ERROR: [Common 17-69] Command failed: Failed to compile the design! 
+// HOptionPane Error: 'ERROR: [Common 17-69] Command failed: Failed to compile the design!  (Run Simulation)'
+// a:a (bR:JFrame): Critical Messages: addNotify
+// [Engine Memory]: 595 mb (+1150kb) [01:42:27]
+selectButton ((HResource) null, "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation]", 10); // N:f (JViewport:JComponent, bR:JFrame)
+// [Engine Memory]: 598 mb (+3448kb) [01:42:33]
+selectCodeEditor ("mult_32bits_float.v", 526, 328); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// Tcl Message: Vivado Simulator 2013.3 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved. Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj work.test_mult_32bits_float work.glbl  Multi-threading is on. Using 2 slave threads. Determining compilation order of HDL files. 
+// TclEventType: LAUNCH_SIM
+selectButton (RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, e:ca)
+// Tcl Message: INFO: [Runs 36-26] xelab completed. INFO: [Vivado 12-1390] *** Running xsim     with args "test_mult_32bits_float_behav -key {Behavioral:sim_1:Functional:test_mult_32bits_float} -tclbatch {test_mult_32bits_float.tcl} -log {test_mult_32bits_float_behav.log}" 
+// Tcl Message: Vivado Simulator 2013.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// [GUI Memory]: 91 mb (+2530kb) [01:42:49]
+// [GUI Memory]: 91 mb (+258kb) [01:42:49]
+// [GUI Memory]: 92 mb (+1084kb) [01:42:50]
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: 0ns: 11010101001011101111101101011011 $finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_mult_32bits_float.v" Line 17 xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 809.313 ; gain = 0.000 
+// Tcl Message: INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_mult_32bits_float_behav' loaded. 
+// Tcl Message: launch_xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 809.313 ; gain = 0.000 
+dismissDialog ("Run Simulation"); // e:ca (bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 4", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 453, 55); // dz:G (JPanel:JComponent, bR:JFrame)
+// [GUI Memory]: 93 mb (+1082kb) [01:42:57]
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 231, 42); // dz:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 601 mb (+2461kb) [01:43:05]
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+closeView (PAResourceItoP.PAViews_CODE, "Code"); // G:b
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 4", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// [Engine Memory]: 601 mb (+126kb) [01:43:09]
+selectCodeEditor ("params_sim.v", 139, 130); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 601 mb (+45kb) [01:43:10]
+// [Engine Memory]: 601 mb (+24kb) [01:43:10]
+selectCodeEditor ("params_sim.v", 2, 126); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 601 mb (+4kb) [01:43:20]
+// [Engine Memory]: 606 mb (+5341kb) [01:45:30]
+// [GUI Memory]: 95 mb (+1558kb) [01:46:20]
+// Elapsed time: 245 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params_sim.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor ("mult_32bits_float.v", 150, 355); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor ("mult_32bits_float.v", 3, 368); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor ("mult_32bits_float.v", 481, 294); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 485, 295); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor ("mult_32bits_float.v", 22, 372); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 30 seconds
+selectCodeEditor ("mult_32bits_float.v", 23, 387); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 23, 387, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 40, 413); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 27, 448); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 85, 388); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 96 mb (+1580kb) [01:51:40]
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 10:59:54 PM
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 11:29:54 PM
+// HMemoryUtils.trashcanNow. Current time: 1/7/14 11:59:54 PM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 12:29:54 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 12:59:54 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 1:29:54 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 1:59:54 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 2:29:55 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 2:59:55 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 3:29:55 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 3:59:55 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 4:29:55 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 4:59:55 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 5:29:55 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 5:59:55 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 6:29:55 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 6:59:56 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 7:29:56 AM
+// [Engine Memory]: 608 mb (+1933kb) [10:33:32]
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 7:33:26 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 7:59:56 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 8:29:56 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 8:59:56 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 9:29:56 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 9:59:56 AM
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 10:29:56 AM
+// Elapsed time: 43462 seconds
+selectCodeEditor ("mult_32bits_float.v", 76, 409); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor ("mult_32bits_float.v", 46, 485); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 112, 446); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 53 seconds
+selectCodeEditor ("mult_32bits_float.v", 223, 177); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor ("mult_32bits_float.v", 112, 451); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 247, 180); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 247, 180, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 91, 443); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 161, 186); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 161, 186, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 172, 444); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 237, 439); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 73, 456); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 611 mb (+3678kb) [13:56:08]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 21 seconds
+selectCodeEditor ("mult_32bits_float.v", 184, 464); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 184, 464, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 45, 387); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 61 seconds
+selectCodeEditor ("mult_32bits_float.v", 262, 142); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 152, 295); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 159, 290); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 219, 133); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 229, 142); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor ("mult_32bits_float.v", 152, 134); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 41, 160); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor ("mult_32bits_float.v", 224, 199); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 149, 200); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 22, 213); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor ("mult_32bits_float.v", 279, 483); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 64 seconds
+selectCodeEditor ("mult_32bits_float.v", 321, 272); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 319, 275); // aR:G (JPanel:JComponent, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 10:59:56 AM
+// Elapsed time: 59 seconds
+selectCodeEditor ("mult_32bits_float.v", 293, 482); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor ("mult_32bits_float.v", 55, 479); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 55, 516); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 274, 501); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor ("mult_32bits_float.v", 156, 217); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 156, 217, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+// Elapsed time: 151 seconds
+selectCodeEditor ("mult_32bits_float.v", 132, 513); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor ("mult_32bits_float.v", 242, 562); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor ("mult_32bits_float.v", 118, 424); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 11:05:40 AM
+// c:X (bR:JFrame): Save Simulation Sources: addNotify
+// Elapsed time: 94 seconds
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+closeView (RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 4"); // v:aA
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, c:X)
+// TclEventType: DG_GRAPH_STALE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+dismissDialog ("Save Simulation Sources"); // c:X (bR:JFrame)
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 11:05:45 AM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details. ERROR: [Common 17-69] Command failed: Failed to compile the design! 
+// HOptionPane Error: 'ERROR: [Common 17-69] Command failed: Failed to compile the design!  (Run Simulation)'
+selectButton ((HResource) null, "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 616 mb (+5251kb) [14:05:58]
+// Elapsed time: 26 seconds
+selectCodeEditor ("params_sim.v", 341, 123); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near 32. [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/params_sim.v:7]. ]", 16); // N:f (JViewport:JComponent, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed time: 58 seconds
+selectCodeEditor ("mult_32bits_float.v", 78, 425); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 63, 467); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 86, 502); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 81, 506); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 264, 368); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 244, 393); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 44, 410); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 44, 501); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 36, 429); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 42, 465); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 71, 451); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 68, 466); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details. ERROR: [Common 17-69] Command failed: Failed to compile the design! 
+// HOptionPane Error: 'ERROR: [Common 17-69] Command failed: Failed to compile the design!  (Run Simulation)'
+// a:a (bR:JFrame): Critical Messages: addNotify
+selectButton ((HResource) null, "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-1654] Analyzing Verilog file E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/mult_32bits_float.v into library work [E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/mult_32bits_float.v:1]. ]", 8); // N:f (JViewport:JComponent, bR:JFrame)
+expandTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1]", 11); // N:f (JViewport:JComponent, bR:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor ("mult_32bits_float.v", 193, 443); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// TclEventType: LAUNCH_SIM
+selectButton (RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, e:ca)
+// Tcl Message: Starting static elaboration Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling module work.mult_32bits_float Compiling module work.test_mult_32bits_float Compiling module work.glbl Waiting for 2 sub-compilation(s) to finish... Built simulation snapshot test_mult_32bits_float_behav 
+// Tcl Message: INFO: [Runs 36-26] xelab completed. INFO: [Vivado 12-1390] *** Running xsim     with args "test_mult_32bits_float_behav -key {Behavioral:sim_1:Functional:test_mult_32bits_float} -tclbatch {test_mult_32bits_float.tcl} -log {test_mult_32bits_float_behav.log}" 
+// Tcl Message: Vivado Simulator 2013.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// [GUI Memory]: 97 mb (+659kb) [14:08:55]
+// [GUI Memory]: 98 mb (+1603kb) [14:08:55]
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: 0ns: 11001101001011101111101101011011 $finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_mult_32bits_float.v" Line 17 xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 820.605 ; gain = 0.000 
+// Tcl Message: INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_mult_32bits_float_behav' loaded. 
+// Tcl Message: launch_xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 820.605 ; gain = 0.000 
+dismissDialog ("Run Simulation"); // e:ca (bR:JFrame)
+// [GUI Memory]: 98 mb (+203kb) [14:09:04]
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [Engine Memory]: 617 mb (+733kb) [14:09:15]
+// Elapsed time: 19 seconds
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 230, 65); // dz:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 618 mb (+892kb) [14:09:17]
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params_sim.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// [GUI Memory]: 99 mb (+901kb) [14:09:23]
+selectCodeEditor ("params_sim.v", 44, 143); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 2, 129); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 38 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectTable (PAResourceQtoZ.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, "m1 ; mult_32bits_float ; Verilog Module", 1); // e:ad (JViewport:JComponent, bR:JFrame)
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 242, 359); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 63 seconds
+selectCodeEditor ("mult_32bits_float.v", 127, 117); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor ("mult_32bits_float.v", 152, 312); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 152, 312, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 365, 306); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 358, 310); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 358, 312); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 358, 308); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 357, 314); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor ("mult_32bits_float.v", 372, 312); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 348, 312); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 352, 312); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 38 seconds
+selectCodeEditor ("mult_32bits_float.v", 202, 305); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 158, 314); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 271, 314); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 257, 314); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 239, 402); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 358, 409); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 241, 427); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 618 mb (+266kb) [14:13:21]
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 11:13:21 AM
+// c:X (bR:JFrame): Save Simulation Sources: addNotify
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+closeView (RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 5"); // v:aA
+selectButton (RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, c:X)
+dismissDialog ("Save Simulation Sources"); // c:X (bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("params_sim.v", 351, 125); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 105, 119); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 11:13:51 AM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// TclEventType: LAUNCH_SIM
+selectButton (RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, e:ca)
+// Tcl Message: Starting static elaboration Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling module work.mult_32bits_float Compiling module work.test_mult_32bits_float Compiling module work.glbl Waiting for 2 sub-compilation(s) to finish... Built simulation snapshot test_mult_32bits_float_behav 
+// Tcl Message: INFO: [Runs 36-26] xelab completed. INFO: [Vivado 12-1390] *** Running xsim     with args "test_mult_32bits_float_behav -key {Behavioral:sim_1:Functional:test_mult_32bits_float} -tclbatch {test_mult_32bits_float.tcl} -log {test_mult_32bits_float_behav.log}" 
+// Tcl Message: Vivado Simulator 2013.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+floatFrame (PAResourceItoP.PAViews_OBJECTS, "Objects"); // af:DockableFrame (FrameContainer:JideTabbedPane, bR:JFrame)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [Engine Memory]: 619 mb (+860kb) [14:14:04]
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// [Engine Memory]: 620 mb (+1667kb) [14:14:04]
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: 0ns: 11001101100101110111110110101101 $finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_mult_32bits_float.v" Line 17 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 820.605 ; gain = 0.000 
+// Tcl Message: INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_mult_32bits_float_behav' loaded. 
+// Tcl Message: launch_xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 820.605 ; gain = 0.000 
+dismissDialog ("Run Simulation"); // e:ca (bR:JFrame)
+dockFrame (PAResourceItoP.PAViews_OBJECTS, "Objects"); // af:DockableFrame (FrameContainer:JideTabbedPane, FrameFloatingContainer:ResizableFrame)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 391, 32); // dz:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 233, 41); // dz:G (JPanel:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params_sim.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("params_sim.v", 174, 124); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 137, 121); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 195, 124); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 12 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// Elapsed time: 66 seconds
+selectCodeEditor ("mult_32bits_float.v", 143, 146); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor ("mult_32bits_float.v", 220, 333); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 80, 443); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor ("mult_32bits_float.v", 177, 358); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 177, 358, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 48, 482); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 188, 349); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 188, 349, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 137, 478); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor ("mult_32bits_float.v", 72, 456); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor ("mult_32bits_float.v", 59, 260); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 72, 190); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 72, 190); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 72, 190, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+// Elapsed time: 10 seconds
+selectCodeEditor ("mult_32bits_float.v", 45, 275); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 46, 275); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 59, 308); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor ("mult_32bits_float.v", 49, 369); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 118, 368); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 118, 519); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 126, 317); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 74 seconds
+selectCodeEditor ("mult_32bits_float.v", 207, 280); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 207, 280, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 200, 286); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 195, 294); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 195, 294, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 140, 369); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 140, 369, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 147, 373); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor ("mult_32bits_float.v", 129, 386); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor ("mult_32bits_float.v", 284, 129); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 209, 128); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 209, 128, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 98, 390); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor ("mult_32bits_float.v", 99, 375); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 99, 375, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 165, 409); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 204, 271); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 227, 405); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 155, 406); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 150, 387); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 120, 383); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 120, 383, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 159, 268); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 159, 268, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectCodeEditor ("mult_32bits_float.v", 145, 392); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 11:20:42 AM
+// c:X (bR:JFrame): Save Simulation Sources: addNotify
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+closeView (RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 6"); // v:aA
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, c:X)
+// TclEventType: DG_GRAPH_STALE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+dismissDialog ("Save Simulation Sources"); // c:X (bR:JFrame)
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 11:20:46 AM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details. ERROR: [Common 17-69] Command failed: Failed to compile the design! 
+// HOptionPane Error: 'ERROR: [Common 17-69] Command failed: Failed to compile the design!  (Run Simulation)'
+// [Engine Memory]: 621 mb (+299kb) [14:20:57]
+selectButton ((HResource) null, "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, launch_xsim -simset sim_1 -mode behavioral. , [Common 17-69] Command failed: Failed to compile the design!. ]", 4); // N:f (JViewport:JComponent, bR:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor ("mult_32bits_float.v", 229, 372); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// Tcl Message: Vivado Simulator 2013.3 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved. Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj work.test_mult_32bits_float work.glbl  Multi-threading is on. Using 2 slave threads. Determining compilation order of HDL files. 
+// TclEventType: LAUNCH_SIM
+selectButton (RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, e:ca)
+// Tcl Message: INFO: [Runs 36-26] xelab completed. INFO: [Vivado 12-1390] *** Running xsim     with args "test_mult_32bits_float_behav -key {Behavioral:sim_1:Functional:test_mult_32bits_float} -tclbatch {test_mult_32bits_float.tcl} -log {test_mult_32bits_float_behav.log}" 
+// Tcl Message: Vivado Simulator 2013.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: 0ns: 11001101100101110111110110101101 $finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_mult_32bits_float.v" Line 17 xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 820.605 ; gain = 0.000 
+// Tcl Message: INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_mult_32bits_float_behav' loaded. 
+// Tcl Message: launch_xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 820.605 ; gain = 0.000 
+dismissDialog ("Run Simulation"); // e:ca (bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params_sim.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 372, 77); // dz:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 623 mb (+2174kb) [14:21:33]
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 235, 45); // dz:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 349, 123); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 136, 121); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 188, 124); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 191, 124); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectTable (PAResourceQtoZ.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, "m1 ; mult_32bits_float ; Verilog Module", 1); // e:ad (JViewport:JComponent, bR:JFrame)
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Elapsed time: 54 seconds
+selectCodeEditor ("mult_32bits_float.v", 83, 372); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("mult_32bits_float.v", 83, 372, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("mult_32bits_float.v", 213, 368); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 11:23:14 AM
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+closeView (RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 7"); // v:aA
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 625 mb (+2351kb) [14:23:21]
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 11:23:16 AM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// Tcl Message: Vivado Simulator 2013.3 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved. Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj work.test_mult_32bits_float work.glbl  Multi-threading is on. Using 2 slave threads. Determining compilation order of HDL files. 
+// TclEventType: LAUNCH_SIM
+selectButton (RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, e:ca)
+// Tcl Message: INFO: [Runs 36-26] xelab completed. INFO: [Vivado 12-1390] *** Running xsim     with args "test_mult_32bits_float_behav -key {Behavioral:sim_1:Functional:test_mult_32bits_float} -tclbatch {test_mult_32bits_float.tcl} -log {test_mult_32bits_float_behav.log}" 
+// Tcl Message: Vivado Simulator 2013.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: 0ns: 11001101100101110111110110101110 $finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_mult_32bits_float.v" Line 17 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 822.910 ; gain = 0.000 
+// Tcl Message: INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_mult_32bits_float_behav' loaded. 
+// Tcl Message: launch_xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 822.910 ; gain = 0.000 
+dismissDialog ("Run Simulation"); // e:ca (bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "params_sim.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 192, 84); // dz:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 235, 46); // dz:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 627 mb (+1613kb) [14:23:39]
+selectCodeEditor ("params_sim.v", 389, 120); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 191, 117); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 363, 126); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor ("params_sim.v", 691, 101); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor ("params_sim.v", 71, 60); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 71, 60, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("params_sim.v", 71, 101); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 71, 101, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("params_sim.v", 71, 101); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 71, 101); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("params_sim.v", 71, 101, false, false, false, false, true); // aR:G (JPanel:JComponent, bR:JFrame) - DOUBLE CLICK
+// Elapsed time: 63 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("test_mult_32bits_float.v", 69, 236); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 11:25:29 AM
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+closeView (RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 8"); // v:aA
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 11:25:30 AM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details. ERROR: [Common 17-69] Command failed: Failed to compile the design! 
+// HOptionPane Error: 'ERROR: [Common 17-69] Command failed: Failed to compile the design!  (Run Simulation)'
+selectButton ((HResource) null, "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+selectCodeEditor ("test_mult_32bits_float.v", 45, 236); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details. ERROR: [Common 17-69] Command failed: Failed to compile the design! 
+// HOptionPane Error: 'ERROR: [Common 17-69] Command failed: Failed to compile the design!  (Run Simulation)'
+// a:a (bR:JFrame): Critical Messages: addNotify
+selectButton ((HResource) null, "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+selectList (PAResourceAtoH.CmdMsgDialog_MESSAGES, "[Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.", 0); // b:a (JViewport:JComponent, a:a)
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+selectCodeEditor ("test_mult_32bits_float.v", 205, 333); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// TclEventType: LAUNCH_SIM
+selectButton (RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, e:ca)
+// Tcl Message: Starting static elaboration Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling module work.mult_32bits_float Compiling module work.test_mult_32bits_float Compiling module work.glbl Waiting for 2 sub-compilation(s) to finish... Built simulation snapshot test_mult_32bits_float_behav 
+// Tcl Message: INFO: [Runs 36-26] xelab completed. INFO: [Vivado 12-1390] *** Running xsim     with args "test_mult_32bits_float_behav -key {Behavioral:sim_1:Functional:test_mult_32bits_float} -tclbatch {test_mult_32bits_float.tcl} -log {test_mult_32bits_float_behav.log}" 
+// Tcl Message: Vivado Simulator 2013.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: 0ns: 00111111100000000000000000000000 $finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_mult_32bits_float.v" Line 17 
+// Tcl Message: INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_mult_32bits_float_behav' loaded. 
+// Tcl Message: launch_xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 823.871 ; gain = 0.000 
+dismissDialog ("Run Simulation"); // e:ca (bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 9", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mult_32bits_float.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_mult_32bits_float.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("test_mult_32bits_float.v", 66, 232); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("test_mult_32bits_float.v", 64, 250); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 11:26:15 AM
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+closeView (RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 9"); // v:aA
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 11:26:17 AM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mult_32bits_float_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_mult_32bits_float.prj   work.test_mult_32bits_float   work.glbl" 
+// TclEventType: LAUNCH_SIM
+selectButton (RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, e:ca)
+// Tcl Message: INFO: [Runs 36-26] xelab completed. INFO: [Vivado 12-1390] *** Running xsim     with args "test_mult_32bits_float_behav -key {Behavioral:sim_1:Functional:test_mult_32bits_float} -tclbatch {test_mult_32bits_float.tcl} -log {test_mult_32bits_float_behav.log}" 
+// Tcl Message: Vivado Simulator 2013.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: 0ns: 01000000100000000000000000000000 $finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_mult_32bits_float.v" Line 17 
+// Tcl Message: INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_mult_32bits_float_behav' loaded. 
+// Tcl Message: launch_xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 823.871 ; gain = 0.000 
+dismissDialog ("Run Simulation"); // e:ca (bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 10", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectTable (PAResourceQtoZ.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, "m1 ; mult_32bits_float ; Verilog Module", 1); // e:ad (JViewport:JComponent, bR:JFrame)
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// HMemoryUtils.trashcanNow. Current time: 1/8/14 11:26:52 AM
+// [Engine Memory]: 644 mb (+18636kb) [14:27:13]
