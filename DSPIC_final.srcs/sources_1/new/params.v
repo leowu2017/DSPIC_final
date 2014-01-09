@@ -1,0 +1,36 @@
+// Floating Point
+`define BITS 32
+`define BITS_LAST `BITS-1
+`define BITS_RANGE [`BITS_LAST:0]
+`define SIGN_BITS 1
+`define SIGN_BITS_START `BITS-1
+`define SIGN_BITS_RANGE [`BITS_START:`BITS_START-`SIGN_BITS+1]
+`define EXPONENT_BITS 8
+`define EXPONENT_BITS_BIAS `EXPONENT_BITS'd127
+`define EXPONENT_BITS_START `BITS-1-`SIGN_BITS
+`define EXPONENT_BITS_RANGE [`EXPONENT_BITS_START:`EXPONENT_BITS_START-`EXPONENT_BITS+1]
+`define FRACTION_BITS 23
+`define FRACTION_BITS_START `BITS-1-`SIGN_BITS-`EXPONENT_BITS
+`define FRACTION_BITS_RANGE [`FRACTION_BITS_START:`FRACTION_BITS_START-`FRACTION_BITS+1]
+
+// Bit Reversal
+`define BR0 0
+`define BR1 8
+`define BR2 4
+`define BR3 12
+`define BR4 2
+`define BR5 10
+`define BR6 6
+`define BR7 14
+`define BR8 1
+`define BR9 9
+`define BR10 5
+`define BR11 13
+`define BR12 3
+`define BR13 11
+`define BR14 7
+`define BR15 15
+
+// FFT
+`define POINT 16
+`define STAGE 4

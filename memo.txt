@@ -1,11 +1,43 @@
+####################################################
 *Split-radix FFT Algorithms
 http://cnx.org/content/m12031/latest/
 
+*Floating point converter
+http://www.h-schmidt.net/FloatConverter/IEEE754.html
+http://babbage.cs.qc.cuny.edu/IEEE-754/
 
+####################################################
+*Modules
+- to implement -
+add_32bits_float.v
+sub_32bits_float.v ?
+div_32bits_float.v ?
+butterfly.v
+fft.v
+
+- to test -
+
+- finished -
+mult_32bits_float.v
+LUT_twiddle.v
+
+####################################################
+*32bits representation
+_ ________ _____________________
+0 00000000 000000000000000000000
+↑   ↑↑
+sign(1 bit)
+     ｜｜
+     decimal point position(8 bits)
+       ｜
+       number(21 bits)
+
+####################################################
 上傳:
 commit -> push
 
 commit步驟:
+加入特定檔案: 選擇檔案後Ctrl+t 
 Rescan -> Stage Changed->輸入Commit Message->commit
 
 push步驟:

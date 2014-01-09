@@ -1,0 +1,5 @@
+Running: xsim.dir/test_LUT_twiddle_behav/xsimk.exe -simmode gui -wdb test_LUT_twiddle_behav.wdb -simrunnum 0 -socket 63859
+Design successfully loaded
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation CPU Usage: 61 ms
