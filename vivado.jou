@@ -2,8 +2,8 @@
 # Vivado v2013.3 (64-bit)
 # SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
 # IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
-# Start of session at: Wed Jan 08 16:52:18 2014
-# Process ID: 16224
+# Start of session at: Thu Jan 16 18:42:24 2014
+# Process ID: 6628
 # Log file: E:/Leo/DSPIC_final/vivado.log
 # Journal file: E:/Leo/DSPIC_final\vivado.jou
 #-----------------------------------------------------------
@@ -11,23 +11,19 @@ start_gui
 open_project {E:\Leo\DSPIC_final\DSPIC_final.xpr}
 update_compile_order -fileset sources_1
 update_compile_order -fileset sim_1
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top LUT_twiddle [current_fileset]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode All [current_project]
+add_files -norecurse {E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/add.v E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_add_sub.v E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/sub.v}
 update_compile_order -fileset sources_1
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-close [ open E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_LUT_twiddle.v w ]
-add_files -fileset sim_1 E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_LUT_twiddle.v
-update_compile_order -fileset sim_1
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top test_LUT_twiddle [get_filesets sim_1]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode All [current_project]
+set_property SOURCE_SET {} [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/testbench.v
 update_compile_order -fileset sim_1
 launch_xsim -simset sim_1 -mode behavioral
-launch_xsim -simset sim_1 -mode behavioral
+set_property SOURCE_SET {} [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/LUT_twiddle.v
+set_property SOURCE_SET {} [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/mult_32bits_float.v
+update_compile_order -fileset sim_1
+set_property SOURCE_SET {} [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_add_sub.v
+update_compile_order -fileset sim_1
 launch_xsim -simset sim_1 -mode behavioral
 close_sim
