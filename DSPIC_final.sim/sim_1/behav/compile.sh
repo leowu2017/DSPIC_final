@@ -32,4 +32,4 @@ ExecStep()
    fi
 }
 
-ExecStep xelab -m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_LUT_twiddle_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_LUT_twiddle.prj   work.test_LUT_twiddle   work.glbl
+ExecStep xelab -m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_LUT_twiddle_behav --prj E:/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_LUT_twiddle.prj   work.test_LUT_twiddle   work.glbl

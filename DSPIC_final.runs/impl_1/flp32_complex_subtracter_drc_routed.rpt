@@ -1,0 +1,180 @@
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2013.3 (win64) Build 329390 Wed Oct 16 18:37:02 MDT 2013
+| Date         : Fri Jan 17 16:48:34 2014
+| Host         : Membrane-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : report_drc
+-----------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+
+REPORT SUMMARY
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Checks: defined_DATA_RATE
+                     DSP48E1_AregAcascreg
+                     Bank IO standard internal Vref conflict
+                     Bank IO standard limits
+                     Bank IO standard Support
+                     Bank IO standard Vcc
+                     Bank IO standard Vref utilization
+                     Bank IO standard Vref
+                     Bank IO standard Termination
+                     RXTX_BITSLICE_shared_clkpin_net
+                     Input Buffer Connections
+                     Missing CFGBVS and CONFIG_VOLTAGE Design Properties
+                     Configuration Mode
+                     Design Rule Check Disabled
+                     DCI Cascade IO standard
+                     DCI Cascade with part compatibility
+                     DCI Cascade Checks
+                     Bank IO standard VRN/VRP Occupied
+                     Inconsistent Diff pair IOStandards
+                     Inconsistent Diff pair IOStandards
+                     Inconsistent Diff pair IOStandards
+                     DSP48 Buffering
+                     DSP48 Cascade
+                     DSP input pipelining
+                     DSP input registers
+                     DSP output pipelining
+                     DSP output registers
+                     DSP48E1_PregOpmodeZmuxP
+                     Cascade input routing
+                     Area group tile alignment
+                     Pblock overlap
+                     Pblock partition
+                     FIFO_SynSameClk
+                     RESET_AFTER_RECONFIG only supported on reconfigurable pblocks
+                     Black Box Instances
+                     IN_TERM / OUT_TERM requirements
+                     IO Bus SLR Crossings
+                     Number of IOs
+                     IOB clock sharing
+                     IOs crosstalk to MGT
+                     Directionless IOs
+                     Differential IO pads
+                     Part compatibility for differing bank types.
+                     Incompatible BUFGs among compatible parts.
+                     MGT not allowed for part compatibility
+                     Part compatibility implied prohibits not respected
+                     Part compatibility between monolithic and multi-die devices.
+                     IOs placed on disallowed sites
+                     IOB set reset sharing
+                     IOStandard Type
+                     INTERNAL_VREF
+                     Longest carry chain height
+                     HLUTNM on instances assigned to non-overlapping pblocks
+                     LOC Excursion
+                     LUTNM on instances assigned to non-overlapping pblocks
+                     Combinatorial Loop
+                     Bidirection LVDS IOs
+                     Multiple Driver Nets
+                     Crossing SLR boundary
+                     Driverless Nets
+                     Unspecified I/O Standard
+                     defined_IBUF_LOW_PWR
+                     connects_TDO
+                     Invalid Site Configuration
+                     BSCAN_JtagChain
+                     Non-Optimal connections to BUFG
+                     Unroutable connections to BUFG
+                     DRC check of BUFIO loads
+                     Clock Placer Checks
+                     Placement Constraints Check for Clock Region(s)
+                     Design Exceptions
+                     Placement Constraints Check for Design Lock
+                     DSP Connectivity Checks
+                     Unroutable connections to GTH instance
+                     Non-Optimal connections which could lead to hold violations
+                     IDELAYCTRL DRC Checks
+                     IDELAY DRC Checks
+                     Dangling IBUFDS output inside IOBUFDS_DIFF_OUT macro 
+                     Unroutable connection between IOB and IDDR
+                     DRC check between IO and buffer(IBUF/OBUF)
+                     IOSTANDARD violations
+                     Placement Constraints Check for IO constraints
+                     ODELAY Check for 3.3 V standard
+                     Inconsistent port properties
+                     RAMB output registers
+                     connects_I0_connects_I1
+                     IO port drives logic
+                     Unrouted net
+                     Missing Site Driver
+                     OSERDES driving OBUF
+                     Unconstrained Logical Port
+                     Resource utilization
+                     VCCAUX_IO unsupported with I/O Standard
+                     VCCAUX
+                     Vccaux voltage requirement for LVCMOS25
+                     VCCOSENSEMODE not supported
+                     Runtime intensive exceptions
+                     Hold option missing in multicycle path constraint
+                     Delay constraint missing on IO port
+           Max violations: <unlimited>
+         Violations found: 9
+
+2. REPORT DETAILS
+-----------------
+NSTD-1#1 Critical Warning
+Unspecified I/O Standard  
+192 out of 192 logical ports use I/O standard (IOSTANDARD) value 'DEFAULT', instead of a user assigned specific value. This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all I/O standards. This design will fail to generate a bitstream unless all logical ports have a user specified I/O standard value defined. To allow bitstream creation with unspecified I/O standard values (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks NSTD-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run. Problem ports: A0[31:0], A1[31:0], B0[31:0], B1[31:0], C0[31:0], C1[31:0].
+Related violations: <none>
+
+UCIO-1#1 Critical Warning
+Unconstrained Logical Port  
+192 out of 192 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: A0[31:0], A1[31:0], B0[31:0], B1[31:0], C0[31:0], C1[31:0].
+Related violations: <none>
+
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+XDCM-1#1 Warning
+Delay constraint missing on IO port  
+The port 'A0[0], A0[1], A0[2], A0[3], A0[4], A0[5], A0[6], A0[7], A0[8], A0[9], A0[10], A0[11], A0[12], A0[13], A0[14], A0[15], A0[16], A0[17], A0[18], A0[19], A0[20], A0[21], A0[22], A0[23], A0[24], A0[25], A0[26], A0[27], A0[28], A0[29], A0[30], A0[31]' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
+Related violations: <none>
+
+XDCM-1#2 Warning
+Delay constraint missing on IO port  
+The port 'A1[0], A1[1], A1[2], A1[3], A1[4], A1[5], A1[6], A1[7], A1[8], A1[9], A1[10], A1[11], A1[12], A1[13], A1[14], A1[15], A1[16], A1[17], A1[18], A1[19], A1[20], A1[21], A1[22], A1[23], A1[24], A1[25], A1[26], A1[27], A1[28], A1[29], A1[30], A1[31]' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
+Related violations: <none>
+
+XDCM-1#3 Warning
+Delay constraint missing on IO port  
+The port 'B0[0], B0[1], B0[2], B0[3], B0[4], B0[5], B0[6], B0[7], B0[8], B0[9], B0[10], B0[11], B0[12], B0[13], B0[14], B0[15], B0[16], B0[17], B0[18], B0[19], B0[20], B0[21], B0[22], B0[23], B0[24], B0[25], B0[26], B0[27], B0[28], B0[29], B0[30], B0[31]' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
+Related violations: <none>
+
+XDCM-1#4 Warning
+Delay constraint missing on IO port  
+The port 'B1[0], B1[1], B1[2], B1[3], B1[4], B1[5], B1[6], B1[7], B1[8], B1[9], B1[10], B1[11], B1[12], B1[13], B1[14], B1[15], B1[16], B1[17], B1[18], B1[19], B1[20], B1[21], B1[22], B1[23], B1[24], B1[25], B1[26], B1[27], B1[28], B1[29], B1[30], B1[31]' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
+Related violations: <none>
+
+XDCM-1#5 Warning
+Delay constraint missing on IO port  
+The port 'C0[0], C0[1], C0[2], C0[3], C0[4], C0[5], C0[6], C0[7], C0[8], C0[9], C0[10], C0[11], C0[12], C0[13], C0[14], C0[15], C0[16], C0[17], C0[18], C0[19], C0[20], C0[21], C0[22], C0[23], C0[24], C0[25], C0[26], C0[27], C0[28], C0[29], C0[30], C0[31]' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
+Related violations: <none>
+
+XDCM-1#6 Warning
+Delay constraint missing on IO port  
+The port 'C1[0], C1[1], C1[2], C1[3], C1[4], C1[5], C1[6], C1[7], C1[8], C1[9], C1[10], C1[11], C1[12], C1[13], C1[14], C1[15], C1[16], C1[17], C1[18], C1[19], C1[20], C1[21], C1[22], C1[23], C1[24], C1[25], C1[26], C1[27], C1[28], C1[29], C1[30], C1[31]' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
+Related violations: <none>
+
+

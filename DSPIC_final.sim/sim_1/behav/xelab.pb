@@ -8,10 +8,10 @@ h
 %s
 *	simulator2T
 @Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.2default:default
-–
+Ã
 Running: %s
-333*	simulator2§
-èD:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_LUT_twiddle_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_LUT_twiddle.prj work.test_LUT_twiddle work.glbl 2default:defaultZ43-3449
+333*	simulator2†
+ãD:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_LUT_twiddle_behav --prj E:/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_LUT_twiddle.prj work.test_LUT_twiddle work.glbl 2default:defaultZ43-3449
 b
 .Multi-threading is on. Using %s slave threads
 406*	simulator2
@@ -19,13 +19,13 @@ b
 H
 +Determining compilation order of HDL files
 286*	simulatorZ43-3402
-∏
-+Analyzing Verilog file "%s" into library %s165*xsimverific2S
-?E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/LUT_twiddle.v2default:default2
+¥
++Analyzing Verilog file "%s" into library %s165*xsimverific2O
+;E:/DSPIC_final/DSPIC_final.srcs/sources_1/new/LUT_twiddle.v2default:default2
 work2default:defaultZ10-165
-π
-+Analyzing Verilog file "%s" into library %s165*xsimverific2T
-@E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_LUT_twiddle.v2default:default2
+µ
++Analyzing Verilog file "%s" into library %s165*xsimverific2P
+<E:/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_LUT_twiddle.v2default:default2
 work2default:defaultZ10-165
 ®
 +Analyzing Verilog file "%s" into library %s165*xsimverific2C

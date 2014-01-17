@@ -1,0 +1,55 @@
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2013.3 (win64) Build 329390 Wed Oct 16 18:37:02 MDT 2013
+| Date         : Fri Jan 17 16:48:01 2014
+| Host         :  running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file flp32_complex_subtracter_control_sets_placed.rpt
+| Design       : flp32_complex_subtracter
+| Device       : xa7a100t
+-----------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |     2 |
+| Minimum Number of register sites lost to control set restrictions |     4 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              44 |           12 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------------+---------------+------------------+------------------+----------------+
+|                 Clock Signal                | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
++---------------------------------------------+---------------+------------------+------------------+----------------+
+|  flp32_sub0/add_1/n_0_R_temp_reg[21]_i_1    |               |                  |                6 |             22 |
+|  flp32_sub1/add_1/n_0_R_temp_reg[21]_i_1__0 |               |                  |                6 |             22 |
++---------------------------------------------+---------------+------------------+------------------+----------------+
+
+

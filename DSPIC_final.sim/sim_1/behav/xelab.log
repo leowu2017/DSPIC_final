@@ -1,10 +1,10 @@
 Vivado Simulator 2013.3
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
-Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_LUT_twiddle_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_LUT_twiddle.prj work.test_LUT_twiddle work.glbl 
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_LUT_twiddle_behav --prj E:/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_LUT_twiddle.prj work.test_LUT_twiddle work.glbl 
 Multi-threading is on. Using 2 slave threads.
 Determining compilation order of HDL files.
-INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/LUT_twiddle.v" into library work
-INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_LUT_twiddle.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/DSPIC_final/DSPIC_final.srcs/sources_1/new/LUT_twiddle.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_LUT_twiddle.v" into library work
 INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
