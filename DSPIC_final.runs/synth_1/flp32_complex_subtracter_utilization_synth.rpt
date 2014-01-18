@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (win64) Build 329390 Wed Oct 16 18:37:02 MDT 2013
-| Date         : Fri Jan 17 16:46:34 2014
+| Date         : Sat Jan 18 15:26:00 2014
 | Host         :  running 64-bit Service Pack 1  (build 7601)
 | Command      : report_utilization -file flp32_complex_subtracter_utilization_synth.rpt -pb flp32_complex_subtracter_utilization_synth.pb
 | Design       : flp32_complex_subtracter
