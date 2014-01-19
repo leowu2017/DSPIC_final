@@ -1,17 +1,56 @@
 <?xml version="1.0"?>
 <Runs Version="1" Minor="9">
-	<Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xa7a100tcsg324-1Q" LaunchPart="xa7a100tcsg324-1Q" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1" LaunchTime="1390105805">
-		<File Type="RDS-UTIL" Name="fft_utilization_synth.rpt"/>
+	<Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xa7a100tcsg324-1Q" LaunchPart="xa7a100tcsg324-1Q" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1" LaunchTime="1390147745">
+		<File Type="RDS-UTIL" Name="fft_stage4_utilization_synth.rpt"/>
 		<File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
-		<File Type="RDS-UTIL-PB" Name="fft_utilization_synth.pb"/>
-		<File Type="RDS-DCP" Name="fft.dcp"/>
-		<File Type="VDS-TIMINGSUMMARY" Name="fft_timing_summary_synth.rpt"/>
-		<File Type="VDS-TIMING-PB" Name="fft_timing_summary_synth.pb"/>
-		<File Type="PA-TCL" Name="fft.tcl"/>
+		<File Type="RDS-UTIL-PB" Name="fft_stage4_utilization_synth.pb"/>
+		<File Type="RDS-DCP" Name="fft_stage4.dcp"/>
+		<File Type="VDS-TIMINGSUMMARY" Name="fft_stage4_timing_summary_synth.rpt"/>
+		<File Type="VDS-TIMING-PB" Name="fft_stage4_timing_summary_synth.pb"/>
+		<File Type="PA-TCL" Name="fft_stage4.tcl"/>
 		<File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
 		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
-		<File Type="RDS-RDS" Name="fft.rds"/>
+		<File Type="RDS-RDS" Name="fft_stage4.rds"/>
 	</Run>
-	<Run Id="impl_1" Type="Ft2:EntireDesign" SynthRun="synth_1" Part="xa7a100tcsg324-1Q" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current"/>
+	<Run Id="impl_1" Type="Ft2:EntireDesign" SynthRun="synth_1" Part="xa7a100tcsg324-1Q" LaunchPart="xa7a100tcsg324-1Q" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" Dir="$PRUNDIR/impl_1" LaunchTime="1390147745">
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+		<File Type="OPT-DRC" Name="fft_stage4_drc_opted.rpt"/>
+		<File Type="PLACE-IO" Name="fft_stage4_io_placed.rpt"/>
+		<File Type="PLACE-CLK" Name="fft_stage4_clock_utilization_placed.rpt"/>
+		<File Type="PLACE-UTIL" Name="fft_stage4_utilization_placed.rpt"/>
+		<File Type="PLACE-UTIL-PB" Name="fft_stage4_utilization_placed.pb"/>
+		<File Type="PLACE-CTRL" Name="fft_stage4_control_sets_placed.rpt"/>
+		<File Type="PLACE-SIMILARITY" Name="fft_stage4_incremental_reuse_placed.rpt"/>
+		<File Type="PLACE-PRE-SIMILARITY" Name="fft_stage4_incremental_reuse_pre_placed.rpt"/>
+		<File Type="PA-TCL" Name="fft_stage4.tcl"/>
+		<File Type="ROUTE-DRC" Name="fft_stage4_drc_routed.rpt"/>
+		<File Type="ROUTE-DRC-PB" Name="fft_stage4_drc_routed.pb"/>
+		<File Type="ROUTE-PWR" Name="fft_stage4_power_routed.rpt"/>
+		<File Type="ROUTE-PWR-SUM" Name="fft_stage4_power_summary_routed.pb"/>
+		<File Type="ROUTE-STATUS" Name="fft_stage4_route_status.rpt"/>
+		<File Type="ROUTE-STATUS-PB" Name="fft_stage4_route_status.pb"/>
+		<File Type="ROUTE-DCP" Name="fft_stage4_routed.dcp"/>
+		<File Type="ROUTE-TIMINGSUMMARY" Name="fft_stage4_timing_summary_routed.rpt"/>
+		<File Type="ROUTE-TIMING-PB" Name="fft_stage4_timing_summary_routed.pb"/>
+		<File Type="ROUTE-SIMILARITY" Name="fft_stage4_incremental_reuse_routed.rpt"/>
+		<File Type="OPT-DCP" Name="fft_stage4_opt.dcp"/>
+		<File Type="RDI-RDI" Name="fft_stage4.rdi"/>
+		<File Type="PLACE-DCP" Name="fft_stage4_placed.dcp"/>
+		<File Type="PWROPT-DCP" Name="fft_stage4_pwropt.dcp"/>
+		<File Type="POSTPLACE-PWROPT-DCP" Name="fft_stage4_postplace_pwropt.dcp"/>
+		<File Type="PWROPT-DRC" Name="fft_stage4_drc_pwropted.rpt"/>
+		<File Type="PHYSOPT-DCP" Name="fft_stage4_physopt.dcp"/>
+		<File Type="PHYSOPT-DRC" Name="fft_stage4_drc_physopted.rpt"/>
+		<File Type="BG-BIT" Name="fft_stage4.bit"/>
+		<File Type="BG-DRC" Name="fft_stage4.drc"/>
+		<File Type="BG-BGN" Name="fft_stage4.bgn"/>
+		<File Type="BG-BIN" Name="fft_stage4.bin"/>
+		<File Type="BITSTR-MSK" Name="fft_stage4.msk"/>
+		<File Type="BITSTR-RBT" Name="fft_stage4.rbt"/>
+		<File Type="BITSTR-NKY" Name="fft_stage4.nky"/>
+		<File Type="BITSTR-BMM" Name="fft_stage4_bd.bmm"/>
+		<File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+	</Run>
 </Runs>
 

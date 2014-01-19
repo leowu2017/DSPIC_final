@@ -2,9 +2,9 @@
 # Vivado v2013.3 (64-bit)
 # SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
 # IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
-# Start of session at: Sun Jan 19 12:30:07 2014
-# Process ID: 6304
-# Log file: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1/fft.rds
+# Start of session at: Mon Jan 20 00:09:07 2014
+# Process ID: 7540
+# Log file: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1/fft_stage4.rds
 # Journal file: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source fft.tcl
+source fft_stage4.tcl

@@ -1,0 +1,7 @@
+Vivado Simulator 2013.3
+Time resolution is 1 ps
+0ns: out_r:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+0ns: out_i:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2ns: out_r:00111111100000000000000000000000
+2ns: out_i:00000000000000000000000000000000
+$finish called at time : 12 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_fft_stage.v" Line 30

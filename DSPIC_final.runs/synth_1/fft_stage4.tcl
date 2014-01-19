@@ -3,6 +3,7 @@
 # 
 
   set_param gui.test TreeTableDev
+  set_param project.hsv.suppressChildGraphs 0
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
 create_project -in_memory -part xa7a100tcsg324-1Q
@@ -16,11 +17,11 @@ read_verilog {
   E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_complex_adder.v
   E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/butterfly.v
   E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/params.v
-  E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft.v
+  E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft_stage4.v
 }
 set_param synth.vivado.isSynthRun true
 set_property webtalk.parent_dir E:/Leo/DSPIC_final/DSPIC_final.data/wt [current_project]
 set_property parent.project_dir E:/Leo/DSPIC_final [current_project]
-synth_design -top fft -part xa7a100tcsg324-1Q
-write_checkpoint fft.dcp
-report_utilization -file fft_utilization_synth.rpt -pb fft_utilization_synth.pb
+synth_design -top fft_stage4 -part xa7a100tcsg324-1Q
+write_checkpoint fft_stage4.dcp
+report_utilization -file fft_stage4_utilization_synth.rpt -pb fft_stage4_utilization_synth.pb

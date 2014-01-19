@@ -32,4 +32,4 @@ ExecStep()
    fi
 }
 
-ExecStep xelab -m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl
+ExecStep xelab -m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_fft_stage_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_fft_stage.prj   work.test_fft_stage   work.glbl

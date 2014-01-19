@@ -169,8 +169,8 @@ begin
 	end
 	else if(counter<=`COUNTER_BITS'd`COUNT_TO && en)
 	begin
-		out_tmp_real = delay2_real;
-		out_tmp_imag = delay2_imag;
+		out_tmp_real = delay2_real[`DELAY-1];
+		out_tmp_imag = delay2_imag[`DELAY-1];
 	end
 	else
 	begin

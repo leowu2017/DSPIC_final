@@ -40,4 +40,8 @@ EAStep()
      fi
 }
 
-EAStep vivado -log fft_stage4.rds -m64 -mode batch -messageDb vivado.pb -source fft_stage4.tcl
+# pre-commands:
+/bin/touch .init_design.begin.rst
+EAStep vivado -log fft_stage4.rdi -applog -m64 -messageDb vivado.pb -mode batch -source fft_stage4.tcl -notrace
+
+
