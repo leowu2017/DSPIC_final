@@ -2,27 +2,582 @@
 # Vivado v2013.3 (64-bit)
 # SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
 # IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
-# Start of session at: Sat Jan 18 14:52:21 2014
-# Process ID: 4284
-# Log file: E:/DSPIC_final/vivado.log
-# Journal file: E:/DSPIC_final\vivado.jou
+# Start of session at: Sun Jan 19 00:04:35 2014
+# Process ID: 8260
+# Log file: E:/Leo/DSPIC_final/vivado.log
+# Journal file: E:/Leo/DSPIC_final\vivado.jou
 #-----------------------------------------------------------
 INFO: [Common 17-78] Attempting to get a license: Implementation
-INFO: [Common 17-81] Feature available: Implementation
+WARNING: [Common 17-301] Failed to get a license: Implementation
+WARNING: [Vivado 15-19] WARNING: No 'Implementation' license found. This message may be safely ignored if a Vivado WebPACK or device-locked license, common for board kits, will be used during implementation.
+
+INFO: [Common 17-78] Attempting to get a license: Synthesis
+WARNING: [Common 17-301] Failed to get a license: Synthesis
 INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/Vivado/2013.3/data/parts/arch.xml
 Parsing RTL primitives file [D:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
 Finished parsing RTL primitives file [D:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
 start_gui
-open_project {E:\DSPIC_final\DSPIC_final.xpr}
+WARNING: [Vivado 15-19] WARNING: No 'Implementation' license found. This message may be safely ignored if a Vivado WebPACK or device-locked license, common for board kits, will be used during implementation.
+
+open_project {E:\Leo\DSPIC_final\DSPIC_final.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/DSPIC_final' since last save.
 Scanning sources...
 Finished scanning sources
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 769.949 ; gain = 20.957
 update_compile_order -fileset sources_1
 update_compile_order -fileset sim_1
+close [ open E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft.v w ]
+add_files E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft.v
+update_compile_order -fileset sources_1
+set_property top flp32_complex_adder [current_fileset]
+update_compile_order -fileset sources_1
+set_property SOURCE_SET {} [get_filesets sim_1]
+close [ open E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_flp32_add_sub.v w ]
+add_files -fileset sim_1 E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_flp32_add_sub.v
+update_compile_order -fileset sim_1
+set_property top butterfly [current_fileset]
+update_compile_order -fileset sources_1
 reset_run synth_1
 launch_runs synth_1
-[Sat Jan 18 15:01:11 2014] Launched synth_1...
-Run output will be captured here: E:/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
+[Sun Jan 19 10:40:44 2014] Launched synth_1...
+Run output will be captured here: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+update_compile_order -fileset sources_1
+set_property top fft [current_fileset]
+update_compile_order -fileset sources_1
+set_property top test_num [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+ERROR: [VRFC 10-794] illegal character in binary number [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:10]
+ERROR: [VRFC 10-1063] multiple packed dimensions are not allowed in this mode of verilog [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:7]
+ERROR: [VRFC 10-66] a is not a memory [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:11]
+ERROR: [VRFC 10-1040] module test_num ignored due to previous errors [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:5]
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+ERROR: [VRFC 10-1412] syntax error near ' [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:10]
+ERROR: [VRFC 10-1063] multiple packed dimensions are not allowed in this mode of verilog [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:7]
+ERROR: [VRFC 10-66] a is not a memory [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:11]
+ERROR: [VRFC 10-1040] module test_num ignored due to previous errors [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:5]
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+ERROR: [VRFC 10-1412] syntax error near ' [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:10]
+ERROR: [VRFC 10-1063] multiple packed dimensions are not allowed in this mode of verilog [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:7]
+ERROR: [VRFC 10-66] a is not a memory [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:11]
+ERROR: [VRFC 10-1040] module test_num ignored due to previous errors [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:5]
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+ERROR: [VRFC 10-794] illegal character in binary number [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:10]
+ERROR: [VRFC 10-1063] multiple packed dimensions are not allowed in this mode of verilog [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:7]
+ERROR: [VRFC 10-66] a is not a memory [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:11]
+ERROR: [VRFC 10-1040] module test_num ignored due to previous errors [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:5]
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+ERROR: [VRFC 10-1063] multiple packed dimensions are not allowed in this mode of verilog [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:7]
+ERROR: [VRFC 10-1304] range is not allowed in a prefix [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:11]
+ERROR: [VRFC 10-66] a is not a memory [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:11]
+ERROR: [VRFC 10-1040] module test_num ignored due to previous errors [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:5]
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+ERROR: [VRFC 10-1063] multiple packed dimensions are not allowed in this mode of verilog [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:7]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net a is not permitted [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:10]
+ERROR: [VRFC 10-66] a is not a memory [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:11]
+ERROR: [VRFC 10-1040] module test_num ignored due to previous errors [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:5]
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+ERROR: [VRFC 10-1412] syntax error near ' [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:7]
+ERROR: [VRFC 10-91] mem is not declared [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:11]
+ERROR: [VRFC 10-1040] module test_num ignored due to previous errors [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:5]
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+ERROR: [XSIM 43-3980] File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" Line 7 : The "System Verilog Assignment pattern" is not supported yet for simulation.
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+ERROR: [VRFC 10-1412] syntax error near $finish [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:16]
+ERROR: [VRFC 10-1412] syntax error near end [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:17]
+ERROR: [VRFC 10-1040] module test_num ignored due to previous errors [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:5]
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+launch_runs impl_1
+[Sun Jan 19 11:44:35 2014] Launched synth_1...
+Run output will be captured here: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
+[Sun Jan 19 11:44:35 2014] Launched impl_1...
+Run output will be captured here: E:/Leo/DSPIC_final/DSPIC_final.runs/impl_1/runme.log
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+ERROR: [VRFC 10-529] concurrent assignment to a non-net a is not permitted [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:10]
+ERROR: [VRFC 10-1040] module test_num ignored due to previous errors [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:5]
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+set_property top flp32_complex_multiplier [current_fileset]
+update_compile_order -fileset sources_1
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+ERROR: [VRFC 10-529] concurrent assignment to a non-net a is not permitted [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:10]
+ERROR: [VRFC 10-1040] module test_num ignored due to previous errors [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:5]
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.test_num
+Compiling module work.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot test_num_behav
+INFO: [Runs 36-26] xelab completed.
+INFO: [Vivado 12-1390] *** Running xsim
+    with args "test_num_behav -key {Behavioral:sim_1:Functional:test_num} -tclbatch {test_num.tcl} -log {test_num_behav.log}"
+Vivado Simulator 2013.3
+Time resolution is 1 ps
+a  = 00000000
+$finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" Line 18
+xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 839.691 ; gain = 0.859
+INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_num_behav' loaded.
+launch_xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 839.691 ; gain = 0.859
+INFO: [Simtcl 6-16] Simulation closed
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+ERROR: [VRFC 10-1063] multiple packed dimensions are not allowed in this mode of verilog [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:7]
+ERROR: [VRFC 10-1040] module test_num ignored due to previous errors [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:5]
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.test_num
+Compiling module work.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot test_num_behav
+INFO: [Runs 36-26] xelab completed.
+INFO: [Vivado 12-1390] *** Running xsim
+    with args "test_num_behav -key {Behavioral:sim_1:Functional:test_num} -tclbatch {test_num.tcl} -log {test_num_behav.log}"
+Vivado Simulator 2013.3
+Time resolution is 1 ps
+a  = 00000000
+$finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" Line 18
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 840.340 ; gain = 0.000
+INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_num_behav' loaded.
+launch_xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 840.340 ; gain = 0.000
+INFO: [Simtcl 6-16] Simulation closed
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+ERROR: [VRFC 10-1063] multiple packed dimensions are not allowed in this mode of verilog [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:7]
+ERROR: [VRFC 10-1040] module test_num ignored due to previous errors [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:5]
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+set_property top fft [current_fileset]
+update_compile_order -fileset sources_1
 reset_run synth_1
 launch_runs synth_1
-[Sat Jan 18 15:25:21 2014] Launched synth_1...
-Run output will be captured here: E:/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
+[Sun Jan 19 12:00:00 2014] Launched synth_1...
+Run output will be captured here: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Sun Jan 19 12:01:14 2014] Launched synth_1...
+Run output will be captured here: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Sun Jan 19 12:04:36 2014] Launched synth_1...
+Run output will be captured here: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.test_num
+Compiling module work.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot test_num_behav
+INFO: [Runs 36-26] xelab completed.
+INFO: [Vivado 12-1390] *** Running xsim
+    with args "test_num_behav -key {Behavioral:sim_1:Functional:test_num} -tclbatch {test_num.tcl} -log {test_num_behav.log}"
+Vivado Simulator 2013.3
+Time resolution is 1 ps
+a  = 00000000
+$finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" Line 18
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 855.055 ; gain = 0.000
+INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_num_behav' loaded.
+launch_xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 855.055 ; gain = 0.000
+INFO: [Simtcl 6-16] Simulation closed
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+ERROR: [VRFC 10-1063] multiple packed dimensions are not allowed in this mode of verilog [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:7]
+ERROR: [VRFC 10-1040] module test_num ignored due to previous errors [E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v:5]
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.test_num
+Compiling module work.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot test_num_behav
+INFO: [Runs 36-26] xelab completed.
+INFO: [Vivado 12-1390] *** Running xsim
+    with args "test_num_behav -key {Behavioral:sim_1:Functional:test_num} -tclbatch {test_num.tcl} -log {test_num_behav.log}"
+Vivado Simulator 2013.3
+Time resolution is 1 ps
+a  = 00000000
+$finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" Line 18
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 855.055 ; gain = 0.000
+INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_num_behav' loaded.
+launch_xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 855.055 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1
+[Sun Jan 19 12:15:34 2014] Launched synth_1...
+Run output will be captured here: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Sun Jan 19 12:22:14 2014] Launched synth_1...
+Run output will be captured here: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Sun Jan 19 12:22:47 2014] Launched synth_1...
+Run output will be captured here: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Sun Jan 19 12:22:59 2014] Launched synth_1...
+Run output will be captured here: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
+INFO: [Simtcl 6-16] Simulation closed
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'testbench.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_flp32_add_sub.v' to 'E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj   work.test_num   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot test_num_behav --prj E:/Leo/DSPIC_final/DSPIC_final.sim/sim_1/behav/test_num.prj work.test_num work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.test_num
+Compiling module work.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot test_num_behav
+INFO: [Runs 36-26] xelab completed.
+INFO: [Vivado 12-1390] *** Running xsim
+    with args "test_num_behav -key {Behavioral:sim_1:Functional:test_num} -tclbatch {test_num.tcl} -log {test_num_behav.log}"
+Vivado Simulator 2013.3
+Time resolution is 1 ps
+a  = 00000000
+$finish called at time : 1 ns : File "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_num.v" Line 18
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 856.602 ; gain = 0.000
+INFO: [Vivado 12-1395] XSim completed. Design snapshot 'test_num_behav' loaded.
+launch_xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 856.602 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1
+[Sun Jan 19 12:24:49 2014] Launched synth_1...
+Run output will be captured here: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Sun Jan 19 12:30:05 2014] Launched synth_1...
+Run output will be captured here: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 19 12:42:41 2014...

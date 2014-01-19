@@ -1,32 +1,12 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 2014/01/17 16:18:35
-// Design Name: 
-// Module Name: flp32_complex_subtracter
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
+// out = in1 - in2
 
-module flp32_complex_subtracter(A0,A1,B0,B1,C0,C1);
+module flp32_complex_subtracter(out_real,out_imag,in1_real,in1_imag,in2_real,in2_imag);
+    output [31:0]out_real,out_imag;
+    input [31:0]in1_real,in1_imag,in2_real,in2_imag;
     
-    input [31:0] A0,A1,B0,B1;
-    output [31:0] C0,C1;
-    wire [31:0] R0,R1;
-    
-    flp32_add_sub flp32_sub0(A0,B0,R0,C0);
-    flp32_add_sub flp32_sub1(A1,B1,R1,C1);     
+    flp32_add_sub s_real(.X0(in1_real),.Y0({~in2_real[31], in2_real[30:0]}),.Result_Add(out_real));
+    flp32_add_sub s_imag(.X0(in1_imag),.Y0({~in2_imag[31], in2_imag[30:0]}),.Result_Add(out_imag));  
     
 endmodule

@@ -23,7 +23,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log flp32_complex_subtracter.rds -m64 -mode batch -messageDb vivado.pb -source flp32_complex_subtracter.tcl" );
+         "-log fft.rds -m64 -mode batch -messageDb vivado.pb -source fft.tcl" );
 
 
 

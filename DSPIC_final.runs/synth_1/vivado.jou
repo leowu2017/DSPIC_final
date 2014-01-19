@@ -2,9 +2,9 @@
 # Vivado v2013.3 (64-bit)
 # SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
 # IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
-# Start of session at: Sat Jan 18 15:25:23 2014
-# Process ID: 6928
-# Log file: E:/DSPIC_final/DSPIC_final.runs/synth_1/flp32_complex_subtracter.rds
-# Journal file: E:/DSPIC_final/DSPIC_final.runs/synth_1\vivado.jou
+# Start of session at: Sun Jan 19 12:30:07 2014
+# Process ID: 6304
+# Log file: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1/fft.rds
+# Journal file: E:/Leo/DSPIC_final/DSPIC_final.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source flp32_complex_subtracter.tcl
+source fft.tcl

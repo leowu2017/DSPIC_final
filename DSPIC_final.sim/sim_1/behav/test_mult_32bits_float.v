@@ -10,9 +10,9 @@ mult_32bits_float m1(out,in1,in2);
 
 initial
 begin
+$monitor("%0dns: A:%b"  , $stime, `NUM0);
 in1 = `NUM0;
 in2 = `NUM0;
-$monitor("%0dns: A:%b"  , $stime, `NUM0);
 $monitor("%0dns: R:%b"  , $stime, out);
 #1
 in1 = `NUM1;

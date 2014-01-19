@@ -1,37 +1,18 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 2014/01/17 16:22:46
-// Design Name: 
-// Module Name: flp32_complex_multiplier
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
+// out = in1 * in2
 
-module flp32_complex_multiplier(A0,A1,B0,B1,C0,C1);
+module flp32_complex_multiplier(out_real,out_imag,in1_real,in1_imag,in2_real,in2_imag);
+    input [31:0]in1_real,in1_imag,in2_real,in2_imag;
+    output [31:0]out_real,out_img;
+    wire [31:0]in1_real_in2_real, in1_imag_in2_imag, in1_real_in2_imag, in1_imag_in2_real;
     
-    input [31:0] A0,A1,B0,B1;
-    output [31:0] C0,C1;
-    wire [31:0] R0,R1;
-    
-    mult_32bits_float(C0_temp0,A0,B0);
-    mult_32bits_float(C0_temp1,A1,B1);
-    mult_32bits_float(C1_temp0,A1,B0);
-    mult_32bits_float(C1_temp1,A0,B1);
-    flp32_add_sub flp32_sub(C0_temp0,C0_temp1,R0,C0);
-    flp32_add_sub flp32_add(C1_temp0,C1_temp1,C1,R1);
+    mult_32bits_float m1(in1_real_in2_real, in1_real, in2_real);
+    mult_32bits_float m2(in1_imag_in2_imag, in1_imag, in2_imag);
+    mult_32bits_float m3(in1_real_in2_imag, in1_real, in2_imag);
+    mult_32bits_float m4(in1_imag_in2_real, in1_imag, in2_real);
+    flp32_add_sub s1(.X0(in1_real_in2_real),.Y0({~in1_imag_in2_imag[31],in1_imag_in2_imag[30:0]}),.Result_Add(out_real));
+    flp32_add_sub a1(.X0(in1_real_in2_imag),.Y0(in1_imag_in2_real),.Result_Add(out_imag));
     
   
     

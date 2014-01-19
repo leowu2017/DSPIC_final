@@ -3,10 +3,22 @@
  Attempting to get a license: %s
 78*common2"
 Implementation2default:defaultZ17-78
-Q
-Feature available: %s
-81*common2"
-Implementation2default:defaultZ17-81
+Y
+Failed to get a license: %s
+295*common2"
+Implementation2default:defaultZ17-301
+–
+πWARNING: No 'Implementation' license found. This message may be safely ignored if a Vivado WebPACK or device-locked license, common for board kits, will be used during implementation.
+
+4*vivadoZ15-19
+V
+ Attempting to get a license: %s
+78*common2
+	Synthesis2default:defaultZ17-78
+T
+Failed to get a license: %s
+295*common2
+	Synthesis2default:defaultZ17-301
 É
 +Loading parts and site information from %s
 36*device2?
@@ -19,10 +31,10 @@ AD:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml2default:def
 *Finished parsing RTL primitives file [%s]
 11*netlist2U
 AD:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml2default:defaultZ29-11
-~
+i
 Command: %s
-53*	vivadotcl2V
-Bsynth_design -top flp32_complex_subtracter -part xa7a100tcsg324-1Q2default:defaultZ4-113
+53*	vivadotcl2A
+-synth_design -top fft -part xa7a100tcsg324-1Q2default:defaultZ4-113
 /
 
 Starting synthesis...
@@ -40,78 +52,419 @@ Starting synthesis...
 xa7a100t2default:defaultZ17-349
 ñ
 %s*synth2Ü
-rStarting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 226.199 ; gain = 81.730
+rStarting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 226.211 ; gain = 80.453
 2default:default
-€
-synthesizing module '%s'638*oasys2,
-flp32_complex_subtracter2default:default2^
-HE:/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_complex_subtracter.v2default:default2
-232default:default8@Z8-638
-ƒ
-synthesizing module '%s'638*oasys2!
-flp32_add_sub2default:default2S
-=E:/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_add_sub.v2default:default2
-32default:default8@Z8-638
-∞
+¥
 synthesizing module '%s'638*oasys2
-add2default:default2I
-3E:/DSPIC_final/DSPIC_final.srcs/sources_1/new/add.v2default:default2
+fft2default:default2M
+7E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft.v2default:default2
+42default:default8@Z8-638
+¿
+synthesizing module '%s'638*oasys2
+	butterfly2default:default2S
+=E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/butterfly.v2default:default2
+62default:default8@Z8-638
+‘
+synthesizing module '%s'638*oasys2'
+flp32_complex_adder2default:default2]
+GE:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_complex_adder.v2default:default2
 32default:default8@Z8-638
-Î
+»
+synthesizing module '%s'638*oasys2!
+flp32_add_sub2default:default2W
+AE:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_add_sub.v2default:default2
+32default:default8@Z8-638
+¥
+synthesizing module '%s'638*oasys2
+add2default:default2M
+7E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/add.v2default:default2
+32default:default8@Z8-638
+Ô
 %done synthesizing module '%s' (%s#%s)256*oasys2
 add2default:default2
 12default:default2
-12default:default2I
-3E:/DSPIC_final/DSPIC_final.srcs/sources_1/new/add.v2default:default2
+12default:default2M
+7E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/add.v2default:default2
 32default:default8@Z8-256
-∞
+¥
 synthesizing module '%s'638*oasys2
-sub2default:default2I
-3E:/DSPIC_final/DSPIC_final.srcs/sources_1/new/sub.v2default:default2
+sub2default:default2M
+7E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/sub.v2default:default2
 32default:default8@Z8-638
-Î
+Ô
 %done synthesizing module '%s' (%s#%s)256*oasys2
 sub2default:default2
 22default:default2
-12default:default2I
-3E:/DSPIC_final/DSPIC_final.srcs/sources_1/new/sub.v2default:default2
+12default:default2M
+7E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/sub.v2default:default2
 32default:default8@Z8-256
-ˇ
+É
 %done synthesizing module '%s' (%s#%s)256*oasys2!
 flp32_add_sub2default:default2
 32default:default2
-12default:default2S
-=E:/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_add_sub.v2default:default2
+12default:default2W
+AE:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_add_sub.v2default:default2
 32default:default8@Z8-256
-ñ
+«
+Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
+a_real2default:default2!
+flp32_add_sub2default:default2
+42default:default2
+32default:default2]
+GE:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_complex_adder.v2default:default2
+72default:default8@Z8-350
+«
+Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
+a_imag2default:default2!
+flp32_add_sub2default:default2
+42default:default2
+32default:default2]
+GE:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_complex_adder.v2default:default2
+82default:default8@Z8-350
+è
+%done synthesizing module '%s' (%s#%s)256*oasys2'
+flp32_complex_adder2default:default2
+42default:default2
+12default:default2]
+GE:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_complex_adder.v2default:default2
+32default:default8@Z8-256
+ﬁ
+synthesizing module '%s'638*oasys2,
+flp32_complex_subtracter2default:default2b
+LE:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_complex_subtracter.v2default:default2
+52default:default8@Z8-638
+Ã
+Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
+s_real2default:default2!
+flp32_add_sub2default:default2
+42default:default2
+32default:default2b
+LE:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_complex_subtracter.v2default:default2
+92default:default8@Z8-350
+Õ
+Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
+s_imag2default:default2!
+flp32_add_sub2default:default2
+42default:default2
+32default:default2b
+LE:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_complex_subtracter.v2default:default2
+102default:default8@Z8-350
+ô
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 flp32_complex_subtracter2default:default2
-42default:default2
-12default:default2^
-HE:/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_complex_subtracter.v2default:default2
-232default:default8@Z8-256
+52default:default2
+12default:default2b
+LE:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_complex_subtracter.v2default:default2
+52default:default8@Z8-256
+˚
+%done synthesizing module '%s' (%s#%s)256*oasys2
+	butterfly2default:default2
+62default:default2
+12default:default2S
+=E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/butterfly.v2default:default2
+62default:default8@Z8-256
+Â
+8referenced signal '%s' should be on the sensitivity list567*oasys2'
+butterfly_8_o1_real2default:default2M
+7E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft.v2default:default2
+212default:default8@Z8-567
+Ô
+%done synthesizing module '%s' (%s#%s)256*oasys2
+fft2default:default2
+72default:default2
+12default:default2M
+7E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft.v2default:default2
+42default:default8@Z8-256
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[31]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[30]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[29]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[28]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[27]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[26]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[25]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[24]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[23]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[22]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[21]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[20]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[19]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[18]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[17]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[16]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[15]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[14]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[13]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[12]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[11]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[10]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[9]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[8]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[7]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[6]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[5]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[4]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[3]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[2]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[1]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[0]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[31]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[30]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[29]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[28]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[27]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[26]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[25]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[24]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[23]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[22]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[21]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[20]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[19]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[18]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[17]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[16]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[15]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[14]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[13]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[12]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[11]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[10]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_imag[9]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_imag[8]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_imag[7]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_imag[6]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_imag[5]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_imag[4]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_imag[3]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_imag[2]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_imag[1]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_imag[0]2default:defaultZ8-3331
+o
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+finish2default:defaultZ8-3331
+l
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+clk2default:defaultZ8-3331
+l
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+rst2default:defaultZ8-3331
 ó
 %s*synth2á
-sFinished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 258.402 ; gain = 113.934
+sFinished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 258.305 ; gain = 112.547
 2default:default
 ö
 %s*synth2ä
-vStart RTL Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 258.402 ; gain = 113.934
+vStart RTL Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 258.305 ; gain = 112.547
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 258.402 ; gain = 113.934
+yFinished RTL Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 258.305 ; gain = 112.547
 2default:default
-ö
+û
 }HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
-adder2default:default2I
-3E:/DSPIC_final/DSPIC_final.srcs/sources_1/new/add.v2default:default2
+adder2default:default2M
+7E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/add.v2default:default2
 192default:default8@Z8-3537
-¡
+≈
 !inferring latch for variable '%s'327*oasys2
 
-R_temp_reg2default:default2I
-3E:/DSPIC_final/DSPIC_final.srcs/sources_1/new/add.v2default:default2
+R_temp_reg2default:default2M
+7E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/add.v2default:default2
 232default:default8@Z8-327
 <
 %s*synth2-
@@ -170,7 +523,7 @@ BRAMs: 270 (col length: RAMB8 0 RAMB16 0 RAMB18 80 RAMB36 40)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 533.324 ; gain = 388.855
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 534.090 ; gain = 388.332
 2default:default
 B
 %s*synth23
@@ -182,19 +535,19 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input     25 Bit       Adders := 2     
+.	   2 Input     25 Bit       Adders := 4     
 2default:default
 Q
 %s*synth2B
-.	   3 Input     24 Bit       Adders := 6     
+.	   3 Input     24 Bit       Adders := 12    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit       Adders := 4     
+.	   2 Input      8 Bit       Adders := 8     
 2default:default
 Q
 %s*synth2B
-.	   3 Input      8 Bit       Adders := 12    
+.	   3 Input      8 Bit       Adders := 24    
 2default:default
 0
 %s*synth2!
@@ -202,39 +555,47 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 20    
+.	   2 Input     32 Bit        Muxes := 40    
 2default:default
 Q
 %s*synth2B
-.	   3 Input     24 Bit        Muxes := 2     
+.	   3 Input     24 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     24 Bit        Muxes := 8     
+.	   2 Input     24 Bit        Muxes := 16    
 2default:default
 Q
 %s*synth2B
-.	   2 Input     23 Bit        Muxes := 2     
+.	   2 Input     23 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	  23 Input     23 Bit        Muxes := 2     
+.	  23 Input     23 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 14    
+.	   2 Input      8 Bit        Muxes := 28    
 2default:default
 Q
 %s*synth2B
-.	  23 Input      5 Bit        Muxes := 2     
+.	  23 Input      5 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
+.	   2 Input      1 Bit        Muxes := 4     
 2default:default
 F
 %s*synth27
 #Hierarchical RTL Component report 
+2default:default
+/
+%s*synth2 
+Module fft 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 D
 %s*synth25
@@ -244,29 +605,21 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-/
-%s*synth2 
-Module add 
+5
+%s*synth2&
+Module butterfly 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-1
-%s*synth2"
-+---Adders : 
+9
+%s*synth2*
+Module flp32_add_sub 
 2default:default
-Q
-%s*synth2B
-.	   2 Input     25 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      8 Bit       Adders := 2     
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 0
 %s*synth2!
@@ -274,11 +627,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     24 Bit        Muxes := 2     
+.	   2 Input     32 Bit        Muxes := 10    
 2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
+?
+%s*synth20
+Module flp32_complex_adder 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 /
 %s*synth2 
@@ -336,13 +693,29 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 1     
 2default:default
-9
-%s*synth2*
-Module flp32_add_sub 
+/
+%s*synth2 
+Module add 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     25 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      8 Bit       Adders := 2     
 2default:default
 0
 %s*synth2!
@@ -350,11 +723,247 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 10    
+.	   2 Input     24 Bit        Muxes := 2     
 2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+ù
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\R_temp_reg[22] 2default:default2
+add2default:defaultZ8-3332
+ù
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\R_temp_reg[21] 2default:default2
+add2default:defaultZ8-3332
+ù
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\R_temp_reg[20] 2default:default2
+add2default:defaultZ8-3332
+ù
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\R_temp_reg[19] 2default:default2
+add2default:defaultZ8-3332
+ù
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\R_temp_reg[18] 2default:default2
+add2default:defaultZ8-3332
+ù
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\R_temp_reg[17] 2default:default2
+add2default:defaultZ8-3332
+ù
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\R_temp_reg[16] 2default:default2
+add2default:defaultZ8-3332
+ù
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\R_temp_reg[15] 2default:default2
+add2default:defaultZ8-3332
+ù
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\R_temp_reg[14] 2default:default2
+add2default:defaultZ8-3332
+ù
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\R_temp_reg[13] 2default:default2
+add2default:defaultZ8-3332
+ù
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\R_temp_reg[12] 2default:default2
+add2default:defaultZ8-3332
+ù
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\R_temp_reg[11] 2default:default2
+add2default:defaultZ8-3332
+ù
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\R_temp_reg[10] 2default:default2
+add2default:defaultZ8-3332
+ú
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2#
+\R_temp_reg[9] 2default:default2
+add2default:defaultZ8-3332
+ú
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2#
+\R_temp_reg[8] 2default:default2
+add2default:defaultZ8-3332
+ú
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2#
+\R_temp_reg[7] 2default:default2
+add2default:defaultZ8-3332
+ú
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2#
+\R_temp_reg[6] 2default:default2
+add2default:defaultZ8-3332
+ú
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2#
+\R_temp_reg[5] 2default:default2
+add2default:defaultZ8-3332
+ú
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2#
+\R_temp_reg[4] 2default:default2
+add2default:defaultZ8-3332
+ú
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2#
+\R_temp_reg[3] 2default:default2
+add2default:defaultZ8-3332
+ú
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2#
+\R_temp_reg[2] 2default:default2
+add2default:defaultZ8-3332
+ú
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2#
+\R_temp_reg[1] 2default:default2
+add2default:defaultZ8-3332
+ú
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2#
+\R_temp_reg[0] 2default:default2
+add2default:defaultZ8-3332
+S
+!design %s has an empty top module3330*oasys2
+fft2default:defaultZ8-3330
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[31]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[30]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[29]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[28]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[27]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[26]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[25]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[24]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[23]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[22]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[21]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[20]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[19]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[18]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[17]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[16]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[15]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[14]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[13]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[12]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[11]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_real[10]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[9]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[8]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[7]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[6]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[5]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[4]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[3]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[2]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[1]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2
+out_real[0]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+fft2default:default2 
+out_imag[31]2default:defaultZ8-3331
+‘
+ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
+14*common2 
+Synth 8-33312default:default2
+1002default:defaultZ17-14
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 534.316 ; gain = 389.848
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 534.090 ; gain = 388.332
 2default:default
 ¢
 %s*synth2í
@@ -374,29 +983,21 @@ u
 %s*synth2f
 R---------------------------------------------------------------------------------
 2default:default
-°
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default29
-%flp32_add_sub:/\add_1/R_temp_reg[22] 2default:defaultZ8-3333
-≠
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2*
-\add_1/R_temp_reg[22] 2default:default2!
-flp32_add_sub2default:defaultZ8-3332
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 595.340 ; gain = 450.871
+zFinished Area Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 535.102 ; gain = 389.344
 2default:default
 †
 %s*synth2ê
-|Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 595.340 ; gain = 450.871
+|Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 535.102 ; gain = 389.344
 2default:default
 ü
 %s*synth2è
-{Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 596.973 ; gain = 452.504
+{Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 544.750 ; gain = 398.992
 2default:default
 ô
 %s*synth2â
-uFinished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 596.973 ; gain = 452.504
+uFinished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 544.750 ; gain = 398.992
 2default:default
 ;
 %s*synth2,
@@ -425,11 +1026,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ™
 %s*synth2ö
-ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 596.973 ; gain = 452.504
+ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 544.750 ; gain = 398.992
 2default:default
 ß
 %s*synth2ó
-ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 596.973 ; gain = 452.504
+ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 544.750 ; gain = 398.992
 2default:default
 ¢
 %s*synth2í
@@ -475,123 +1076,59 @@ A
 
 Report Cell Usage: 
 2default:default
-;
-%s*synth2,
-+------+-------+------+
+4
+%s*synth2%
++-+-----+------+
 2default:default
-;
-%s*synth2,
-|      |Cell   |Count |
+4
+%s*synth2%
+| |Cell |Count |
 2default:default
-;
-%s*synth2,
-+------+-------+------+
+4
+%s*synth2%
++-+-----+------+
 2default:default
-;
-%s*synth2,
-|1     |CARRY4 |    98|
-2default:default
-;
-%s*synth2,
-|2     |LUT2   |    76|
-2default:default
-;
-%s*synth2,
-|3     |LUT3   |   286|
-2default:default
-;
-%s*synth2,
-|4     |LUT4   |   406|
-2default:default
-;
-%s*synth2,
-|5     |LUT5   |   288|
-2default:default
-;
-%s*synth2,
-|6     |LUT6   |   570|
-2default:default
-;
-%s*synth2,
-|7     |MUXF7  |    38|
-2default:default
-;
-%s*synth2,
-|8     |LD     |    44|
-2default:default
-;
-%s*synth2,
-|9     |IBUF   |   128|
-2default:default
-;
-%s*synth2,
-|10    |OBUF   |    64|
-2default:default
-;
-%s*synth2,
-+------+-------+------+
+4
+%s*synth2%
++-+-----+------+
 2default:default
 <
 %s*synth2-
 
 Report Instance Areas: 
 2default:default
-R
-%s*synth2C
-/+------+-------------+----------------+------+
+E
+%s*synth26
+"+------+---------+-------+------+
 2default:default
-R
-%s*synth2C
-/|      |Instance     |Module          |Cells |
+E
+%s*synth26
+"|      |Instance |Module |Cells |
 2default:default
-R
-%s*synth2C
-/+------+-------------+----------------+------+
+E
+%s*synth26
+"+------+---------+-------+------+
 2default:default
-R
-%s*synth2C
-/|1     |top          |                |  1998|
+E
+%s*synth26
+"|1     |top      |       |     0|
 2default:default
-R
-%s*synth2C
-/|2     |  flp32_sub0 |flp32_add_sub   |   247|
-2default:default
-R
-%s*synth2C
-/|3     |    add_1    |add_1           |   247|
-2default:default
-R
-%s*synth2C
-/|4     |  flp32_sub1 |flp32_add_sub_0 |   247|
-2default:default
-R
-%s*synth2C
-/|5     |    add_1    |add             |   247|
-2default:default
-R
-%s*synth2C
-/+------+-------------+----------------+------+
+E
+%s*synth26
+"+------+---------+-------+------+
 2default:default
 ¶
 %s*synth2ñ
-ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 596.973 ; gain = 452.504
+ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 544.750 ; gain = 398.992
 2default:default
-i
-%s*synth2Z
-FSynthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+k
+%s*synth2\
+HSynthesis finished with 0 errors, 0 critical warnings and 228 warnings.
 2default:default
 £
 %s*synth2ì
-Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 596.973 ; gain = 452.504
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 544.750 ; gain = 398.992
 2default:default
-^
--Analyzing %s Unisim elements for replacement
-17*netlist2
-1722default:defaultZ29-17
-a
-2Unisim Transformation completed in %s CPU seconds
-28*netlist2
-02default:defaultZ29-28
 ^
 1Inserted %s IBUFs to IO ports without IO buffers.100*opt2
 02default:defaultZ31-140
@@ -613,21 +1150,20 @@ _
 |
 MSuccessfully populated the BRAM INIT strings from the following elf files: %s96*memdata2
  2default:defaultZ28-143
-ó
+u
 !Unisim Transformation Summary:
-%s111*project2[
-G  A total of 44 instances were transformed.
-  LD => LDCE: 44 instances
+%s111*project29
+%No Unisim elements were transformed.
 2default:defaultZ1-111
 L
 Releasing license: %s
 83*common2
 	Synthesis2default:defaultZ17-83
-Ω
+ø
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-212default:default2
-32default:default2
+242default:default2
+1312default:default2
 02default:default2
 02default:defaultZ4-41
 U
@@ -638,18 +1174,21 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:00:352default:default2
-00:00:352default:default2
-823.6212default:default2
-641.8322default:defaultZ17-268
-<
-%Done setting XDC timing constraints.
-35*timingZ38-35
+00:00:502default:default2
+00:00:542default:default2
+796.2932default:default2
+614.5862default:defaultZ17-268
+:
+#Going to infer timing constraints.
+45*timingZ38-45
+:
+#Done inferring timing constraints.
+33*timingZ38-33
 
-sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 823.621 ; gain = 0.000
+sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.129 . Memory (MB): peak = 796.293 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Sat Jan 18 15:26:00 20142default:defaultZ17-206
+Sun Jan 19 12:31:04 20142default:defaultZ17-206

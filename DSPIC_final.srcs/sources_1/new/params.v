@@ -34,3 +34,4 @@
 // FFT
 `define POINT 16
 `define STAGE 4
+`define NUM0 32'b0_0000_0000_000_0000_0000_0000_0000_0000

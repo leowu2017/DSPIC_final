@@ -4,13 +4,17 @@
 
 module test_num();
 
-wire [1:0]r;
+reg [7:0]mem[3:0];
+wire [7:0] a;
 
-assign r = {1'b1,1'b0}-{1'b0,1'b1};
+assign a=mem[0];
 
 initial
 begin
-$display("%b",r);
+
+mem[0] = 8'b0000_0000;
+#1
+$display ("a  = %b", a);
 $finish();
 end
 

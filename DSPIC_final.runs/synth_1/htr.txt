@@ -6,4 +6,4 @@ REM          to be invoked for Vivado to track run status.
 REM Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 REM
 
-vivado -log flp32_complex_subtracter.rds -m64 -mode batch -messageDb vivado.pb -source flp32_complex_subtracter.tcl
+vivado -log fft.rds -m64 -mode batch -messageDb vivado.pb -source fft.tcl
