@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Sat Jan 18 14:52:21 2014
+# Process ID: 4284
+# Log file: E:/DSPIC_final/vivado.log
+# Journal file: E:/DSPIC_final\vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/Vivado/2013.3/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+open_project {E:\DSPIC_final\DSPIC_final.xpr}
+Scanning sources...
+Finished scanning sources
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1
+[Sat Jan 18 15:01:11 2014] Launched synth_1...
+Run output will be captured here: E:/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Sat Jan 18 15:25:21 2014] Launched synth_1...
+Run output will be captured here: E:/DSPIC_final/DSPIC_final.runs/synth_1/runme.log

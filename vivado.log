@@ -2,10 +2,10 @@
 # Vivado v2013.3 (64-bit)
 # SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
 # IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
-# Start of session at: Sat Jan 18 14:52:21 2014
-# Process ID: 4284
-# Log file: E:/DSPIC_final/vivado.log
-# Journal file: E:/DSPIC_final\vivado.jou
+# Start of session at: Sun Jan 19 16:32:12 2014
+# Process ID: 4880
+# Log file: E:/DSP/vivado.log
+# Journal file: E:/DSP\vivado.jou
 #-----------------------------------------------------------
 INFO: [Common 17-78] Attempting to get a license: Implementation
 INFO: [Common 17-81] Feature available: Implementation
@@ -13,16 +13,127 @@ INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/Vivado/20
 Parsing RTL primitives file [D:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
 Finished parsing RTL primitives file [D:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
 start_gui
-open_project {E:\DSPIC_final\DSPIC_final.xpr}
+open_project {E:\DSP\DSPIC_final.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/DSPIC_final' since last save.
 Scanning sources...
 Finished scanning sources
 update_compile_order -fileset sources_1
 update_compile_order -fileset sim_1
-reset_run synth_1
-launch_runs synth_1
-[Sat Jan 18 15:01:11 2014] Launched synth_1...
-Run output will be captured here: E:/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1
-[Sat Jan 18 15:25:21 2014] Launched synth_1...
-Run output will be captured here: E:/DSPIC_final/DSPIC_final.runs/synth_1/runme.log
+set_property top testbench [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'params_sim.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_num.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav --prj E:/DSP/DSPIC_final.sim/sim_1/behav/testbench.prj   work.testbench   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav --prj E:/DSP/DSPIC_final.sim/sim_1/behav/testbench.prj work.testbench work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v" into library work
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:12]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:13]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:15]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:16]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:18]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:19]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:21]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:22]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:24]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:25]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:27]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:28]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:30]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:31]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:33]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:34]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:36]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:37]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:39]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:40]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:42]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:43]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:45]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:46]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:48]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:49]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:51]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:52]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:54]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:55]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:57]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:58]
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" into library work
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <butterfly> not found while processing module instance <butterfly_1> [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:8]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/DSP/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'params_sim.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_num.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav --prj E:/DSP/DSPIC_final.sim/sim_1/behav/testbench.prj   work.testbench   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav --prj E:/DSP/DSPIC_final.sim/sim_1/behav/testbench.prj work.testbench work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" into library work
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <butterfly> not found while processing module instance <butterfly_1> [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:8]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/DSP/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'params_sim.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_num.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav --prj E:/DSP/DSPIC_final.sim/sim_1/behav/testbench.prj   work.testbench   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav --prj E:/DSP/DSPIC_final.sim/sim_1/behav/testbench.prj work.testbench work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v" into library work
+ERROR: [VRFC 10-394] cannot access memory input_real directly [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:6]
+ERROR: [VRFC 10-1040] module testbench ignored due to previous errors [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:3]
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/DSP/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'test_mult_32bits_float.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'params_sim.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_num.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'test_LUT_twiddle.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'LUT_twiddle.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'mult_32bits_float.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'flp32_add_sub.v' to 'E:/DSP/DSPIC_final.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav --prj E:/DSP/DSPIC_final.sim/sim_1/behav/testbench.prj   work.testbench   work.glbl"
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav --prj E:/DSP/DSPIC_final.sim/sim_1/behav/testbench.prj work.testbench work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v" into library work
+ERROR: [VRFC 10-394] cannot access memory input_real directly [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:6]
+ERROR: [VRFC 10-1040] module testbench ignored due to previous errors [E:/DSP/DSPIC_final.srcs/sim_1/new/testbench.v:3]
+ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/DSP/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details.
+ERROR: [Common 17-69] Command failed: Failed to compile the design!

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Sun Jan 19 16:30:57 2014
+# Process ID: 3720
+# Log file: E:/DSP/vivado.log
+# Journal file: E:/DSP\vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/Vivado/2013.3/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+open_project {E:\DSP\DSPIC_final.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/DSPIC_final' since last save.
+Scanning sources...
+Finished scanning sources
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 652.691 ; gain = 33.641
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 19 16:31:51 2014...

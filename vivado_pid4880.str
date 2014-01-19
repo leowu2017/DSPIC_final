@@ -1,0 +1,583 @@
+/*
+
+Vivado v2013.3 (64-bit)
+SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+Process ID: 4880
+
+Current time: 	1/19/14 4:32:20 PM
+Time zone: 	China Standard Time (Asia/Taipei)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_17 64-bit
+Java home: 	D:/Xilinx/Vivado/2013.3/tps/win64/jre
+
+User name: 	Membrane
+User directory: E:/DSP
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+GUI Allocated memory:	122 mb
+GUI Max memory:		3,066 mb
+Engine Allocated memory: 474 mb
+
+*/
+
+// TclEventType: START_GUI
+minimizeFrame (PAResourceItoP.PAViews_TCL_CONSOLE, "Tcl Console"); // af:DockableFrame (FrameContainer:JideTabbedPane, bR:JFrame)
+// TclEventType: START_PROGRESS_DIALOG
+// ca:I (bR:JFrame):  Opening project 'E:\DSP\DSPIC_final.xpr' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {E:\DSP\DSPIC_final.xpr} 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 49 mb (+48891kb) [00:00:03]
+// [Engine Memory]: 440 mb (+309881kb) [00:00:03]
+// [GUI Memory]: 73 mb (+24887kb) [00:00:04]
+// [Engine Memory]: 450 mb (+10485kb) [00:00:04]
+// [Engine Memory]: 451 mb (+1536kb) [00:00:04]
+// [Engine Memory]: 464 mb (+13676kb) [00:00:04]
+// [GUI Memory]: 84 mb (+11926kb) [00:00:06]
+// [Engine Memory]: 466 mb (+1744kb) [00:00:06]
+// Tcl Message: open_project {E:\DSP\DSPIC_final.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/DSPIC_final' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// o:I (bR:JFrame): XilinxNotify - Available Updates: addNotify
+// TclEventType: STOP_PROGRESS_DIALOG
+// [Engine Memory]: 474 mb (+7880kb) [00:00:06]
+// TclEventType: STOP_PROGRESS_DIALOG
+// HMemoryUtils.trashcanNow. Current time: 1/19/14 4:32:21 PM
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 475 mb (+1757kb) [00:00:09]
+// Tcl Message: update_compile_order -fileset sources_1 update_compile_order -fileset sim_1 
+// [Engine Memory]: 475 mb (+147kb) [00:00:11]
+dismissDialog ("XilinxNotify - Available Updates"); // o:I (bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/19/14 4:32:27 PM
+// [Engine Memory]: 476 mb (+520kb) [00:00:13]
+selectCodeEditor ("butterfly.v", 415, 436); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 74, 387); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 490 mb (+14422kb) [00:00:19]
+// Elapsed time: 11 seconds
+selectCodeEditor ("butterfly.v", 24, 252); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 284, 274); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 297, 274); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 4, 467); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 161, 463); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor ("butterfly.v", 278, 490); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 23, 462); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 285, 491); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 269, 486); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 9, 503); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 141, 331); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 51 seconds
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectCodeEditor ("butterfly.v", 59, 401); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 27, 402); // aR:G (JPanel:JComponent, bR:JFrame)
+// [GUI Memory]: 85 mb (+1276kb) [00:02:47]
+// [Engine Memory]: 490 mb (+286kb) [00:03:12]
+// Elapsed time: 50 seconds
+selectCodeEditor ("butterfly.v", 21, 239); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 922, 262); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 914, 255); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 1, 351); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 201, 350); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 77 seconds
+selectCodeEditor ("butterfly.v", 891, 371); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 4, 380); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor ("butterfly.v", 209, 384); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 490 mb (+430kb) [00:05:45]
+// Elapsed time: 53 seconds
+selectCodeEditor ("butterfly.v", 426, 387); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 424, 391); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 715, 388); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 720, 386); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 423, 386); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 423, 406); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 1042, 381); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor ("butterfly.v", 21, 388); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 1202, 413); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 1182, 413); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 3, 425); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 310, 427); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor ("butterfly.v", 1040, 429); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 1133, 426); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 1037, 449); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 1050, 450); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 1144, 448); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor ("butterfly.v", 714, 405); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 442, 426); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 715, 425); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 444, 444); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 715, 445); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 491 mb (+286kb) [00:08:15]
+// Elapsed time: 25 seconds
+selectCodeEditor ("butterfly.v", 101, 447); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor ("butterfly.v", 289, 297); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 272, 317); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 5, 408); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 150, 407); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 492 mb (+1404kb) [00:09:05]
+// Elapsed time: 19 seconds
+selectCodeEditor ("butterfly.v", 123, 423); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor ("butterfly.v", 131, 425); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 229, 424); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 264, 428); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 265, 431); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 19, 446); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 25, 449); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 133, 446); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor ("butterfly.v", 267, 522); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor ("butterfly.v", 354, 400); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 893, 123); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 30, 422); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 203, 426); // aR:G (JPanel:JComponent, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 1/19/14 4:42:52 PM
+// Elapsed time: 18 seconds
+selectCodeEditor ("butterfly.v", 212, 310); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 498 mb (+5971kb) [00:10:50]
+// Elapsed time: 28 seconds
+selectCodeEditor ("butterfly.v", 357, 377); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 917, 374); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 222, 372); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 252, 392); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor ("butterfly.v", 286, 370); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 753, 363); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 762, 375); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 757, 367); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 848, 366); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 294, 366); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 385, 371); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 768, 367); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 859, 368); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 893, 365); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 922, 372); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor ("butterfly.v", 210, 386); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor ("butterfly.v", 295, 385); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor ("butterfly.v", 769, 381); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 36 seconds
+selectCodeEditor ("butterfly.v", 422, 101); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 406, 389); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 409, 382); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 420, 254); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 402, 292); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor ("butterfly.v", 408, 312); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 405, 314); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 665, 315); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 62 seconds
+selectCodeEditor ("butterfly.v", 426, 311); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor ("butterfly.v", 695, 311); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor ("butterfly.v", 428, 331); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 426, 332); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 716, 329); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor ("butterfly.v", 426, 351); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 423, 343); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 715, 349); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor ("butterfly.v", 427, 368); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 717, 371); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 715, 370); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 56 seconds
+selectCodeEditor ("butterfly.v", 819, 336); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 875, 465); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 499 mb (+1568kb) [00:18:30]
+// [GUI Memory]: 86 mb (+757kb) [00:28:35]
+// [GUI Memory]: 88 mb (+1655kb) [00:29:00]
+// HMemoryUtils.trashcanNow. Current time: 1/19/14 5:02:14 PM
+// Elapsed time: 1757 seconds
+selectCodeEditor ("butterfly.v", 299, 405); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 27 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v), adder2_6 - flp32_complex_adder (flp32_complex_adder.v)]", 9); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v), adder2_6 - flp32_complex_adder (flp32_complex_adder.v)]", 9, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/19/14 5:20:24 PM
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v), adder2_5 - flp32_complex_adder (flp32_complex_adder.v)]", 8); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("butterfly.v", 101, 40); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 57 seconds
+selectCodeEditor ("butterfly.v", 144, 87); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 216, 88, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("butterfly.v", 103, 46); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 103, 46, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenu (RDIResource.HCodeEditor_BLANK_OPERATIONS, "Blank Operations"); // ac:JideMenu (am:JPopupMenu, bR:JFrame)
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("butterfly.v", 144, 105); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 293, 100); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 277, 102); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 143, 103); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 228, 48); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 500 mb (+479kb) [00:49:45]
+// Elapsed time: 422 seconds
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 6); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 7); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench (testbench.v)]", 12); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench (testbench.v)]", 12, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 1/19/14 5:28:56 PM
+selectCodeEditor ("testbench.v", 503, 313); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 505 mb (+5599kb) [00:56:45]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 2); // n:f (u:JPanel, bR:JFrame)
+// [Engine Memory]: 507 mb (+2519kb) [00:57:07]
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// [Engine Memory]: 512 mb (+4939kb) [00:57:07]
+selectCodeEditor ("butterfly.v", 445, 346); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 35 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 2, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceQtoZ.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceQtoZ.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 6); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 7); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench (testbench.v)]", 13); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench (testbench.v)]", 13, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceQtoZ.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top testbench [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/DSP/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details. ERROR: [Common 17-69] Command failed: Failed to compile the design! 
+// HOptionPane Error: 'ERROR: [Common 17-69] Command failed: Failed to compile the design!  (Run Simulation)'
+// a:a (bR:JFrame): Critical Messages: addNotify
+// [Engine Memory]: 520 mb (+8617kb) [00:58:06]
+selectButton ((HResource) null, "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+// HMemoryUtils.trashcanNow. Current time: 1/19/14 5:30:22 PM
+selectTab ((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, launch_xsim -simset sim_1 -mode behavioral. ]", 3); // N:f (JViewport:JComponent, bR:JFrame)
+expandTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1]", 49); // N:f (JViewport:JComponent, bR:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor ("testbench.v", 65, 211); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 64 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_twiddle (LUT_twiddle.v)]", 71); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("butterfly.v", 444, 388); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 424, 332); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 695, 369); // aR:G (JPanel:JComponent, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 1/19/14 5:32:14 PM
+// Elapsed time: 13 seconds
+selectCodeEditor ("butterfly.v", 427, 406); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 46 seconds
+selectCodeEditor ("butterfly.v", 684, 423); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 13 seconds
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EDIT, "Edit"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_EDIT, "Edit"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EXPORT, "Export"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenuItem (RDIResourceCommand.RDICommands_SAVE_ALL_FILES, "Save All Files..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// r:af (bR:JFrame): Save Text Editor Changes: addNotify
+selectButton (RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, r:af)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+dismissDialog ("Save Text Editor Changes"); // r:af (bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 521 mb (+245kb) [01:01:13]
+// [Engine Memory]: 533 mb (+12906kb) [01:01:13]
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// [Engine Memory]: 533 mb (+548kb) [01:01:15]
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/DSP/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details. ERROR: [Common 17-69] Command failed: Failed to compile the design! 
+// HOptionPane Error: 'ERROR: [Common 17-69] Command failed: Failed to compile the design!  (Run Simulation)'
+// a:a (bR:JFrame): Critical Messages: addNotify
+// [Engine Memory]: 536 mb (+2179kb) [01:01:18]
+selectButton ((HResource) null, "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+selectTab ((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, null, -1, false, false, false, true, false); // N:f (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceItoP.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // af:JMenu (y:JPopupMenu, Popup:JWindow)
+selectMenuItem (PAResourceItoP.MsgTreePanel_DISCARD_OLD_MESSAGES, "Discard Old Messages"); // ai:JMenuItem (y:JPopupMenu, Popup:JWindow)
+// Elapsed time: 16 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v), subtracter8_15 - flp32_complex_subtracter (flp32_complex_subtracter.v)]", 83); // n:f (u:JPanel, bR:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor ("testbench.v", 489, 244); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("testbench.v", 96, 44); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// [GUI Memory]: 90 mb (+2221kb) [01:02:19]
+// Elapsed time: 14 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench (testbench.v)]", 10); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench (testbench.v)]", 10, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// Elapsed time: 21 seconds
+selectCodeEditor ("testbench.v", 140, 147); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("testbench.v", 142, 141); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "butterfly.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("butterfly.v", 96, 51); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 30 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "testbench.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// [GUI Memory]: 91 mb (+1148kb) [01:03:23]
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "butterfly.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("butterfly.v", 93, 48); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 129, 51); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 98, 47); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 556, 49); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "testbench.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("testbench.v", 157, 144); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor ("testbench.v", 147, 157); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("testbench.v", 183, 162); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("testbench.v", 148, 160); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "butterfly.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// [GUI Memory]: 91 mb (+80kb) [01:04:05]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "testbench.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// Elapsed time: 34 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, butterfly (butterfly.v)]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("butterfly.v", 205, 197); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 280, 209); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 232 seconds
+selectCodeEditor ("butterfly.v", 285, 313); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 67, 85); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 53 seconds
+selectCodeEditor ("butterfly.v", 271, 112); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 346, 72); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 187 seconds
+selectCodeEditor ("butterfly.v", 68, 84); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 226, 126); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 74 seconds
+selectCodeEditor ("butterfly.v", 308, 344); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 832, 488); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor ("butterfly.v", 265, 202); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 49 seconds
+selectCodeEditor ("butterfly.v", 372, 285); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor ("butterfly.v", 137, 84); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 72 seconds
+selectCodeEditor ("butterfly.v", 334, 85); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor ("butterfly.v", 763, 88); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 50 seconds
+selectCodeEditor ("butterfly.v", 1065, 102); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor ("butterfly.v", 103, 119); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 42 seconds
+selectCodeEditor ("butterfly.v", 273, 120); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor ("butterfly.v", 276, 127); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 817, 121); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 399, 123); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor ("butterfly.v", 296, 79); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 391, 109); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 396, 123); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 31, 132); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 28, 140); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 21, 121); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 22, 138); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 99 seconds
+selectCodeEditor ("butterfly.v", 280, 162); // aR:G (JPanel:JComponent, bR:JFrame)
+// [GUI Memory]: 92 mb (+664kb) [01:25:07]
+// Elapsed time: 173 seconds
+selectCodeEditor ("butterfly.v", 22, 84); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor ("butterfly.v", 156, 207); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 113, 158); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 161, 160); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor ("butterfly.v", 24, 198); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor ("butterfly.v", 901, 315); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 946, 204); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor ("butterfly.v", 91, 161); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor ("butterfly.v", 1132, 159); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 64 seconds
+selectCodeEditor ("butterfly.v", 161, 159); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor ("butterfly.v", 25, 108); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 170, 80); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor ("butterfly.v", 237, 82); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 236, 83); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 182, 103); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 254, 100); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 246, 100); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 246, 106); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 166, 120); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 162, 124); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 167, 82); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("butterfly.v", 465, 62); // aR:G (JPanel:JComponent, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 1/19/14 6:02:14 PM
+// Elapsed time: 153 seconds
+selectCodeEditor ("butterfly.v", 470, 275); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 80 seconds
+selectCodeEditor ("butterfly.v", 435, 328); // aR:G (JPanel:JComponent, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 6); // n:f (u:JPanel, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 7); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench (testbench.v)]", 10); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench (testbench.v)]", 10, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// Elapsed time: 10 seconds
+selectCodeEditor ("testbench.v", 96, 62); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "butterfly.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("butterfly.v", 107, 86); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "testbench.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("testbench.v", 84, 65); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("testbench.v", 455, 85); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "butterfly.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+selectCodeEditor ("butterfly.v", 108, 105); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "testbench.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor ("testbench.v", 1043, 137); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor ("testbench.v", 112, 197); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 176 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "butterfly.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor ("butterfly.v", 362, 85); // aR:G (JPanel:JComponent, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 92 mb (+103kb) [01:37:51]
+// [GUI Memory]: 92 mb (+146kb) [01:37:51]
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/DSP/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details. ERROR: [Common 17-69] Command failed: Failed to compile the design! 
+// HOptionPane Error: 'ERROR: [Common 17-69] Command failed: Failed to compile the design!  (Run Simulation)'
+// a:a (bR:JFrame): Critical Messages: addNotify
+// [Engine Memory]: 538 mb (+2678kb) [01:37:55]
+selectButton ((HResource) null, "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+selectTab ((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [E:/DSPIC_final/DSPIC_final.srcs/sources_1/new/add.v:19]. ]", 32, false, false, false, true, false); // N:f (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceItoP.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // af:JMenu (y:JPopupMenu, Popup:JWindow)
+selectMenuItem (PAResourceItoP.MsgTreePanel_DISCARD_OLD_MESSAGES, "Discard Old Messages"); // ai:JMenuItem (y:JPopupMenu, Popup:JWindow)
+// Elapsed time: 31 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "flp32_complex_adder.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// [GUI Memory]: 95 mb (+3376kb) [01:38:31]
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "butterfly.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// [GUI Memory]: 95 mb (+485kb) [01:38:34]
+closeView (PAResourceItoP.PAViews_CODE, "Code"); // G:b
+// [GUI Memory]: 100 mb (+5091kb) [01:38:34]
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "butterfly.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 1/19/14 6:10:57 PM
+selectCodeEditor ("testbench.v", 279, 106); // aR:G (JPanel:JComponent, bR:JFrame)
+// [Engine Memory]: 540 mb (+2527kb) [01:38:45]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10); // w:K (v:u, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// e:ca (bR:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: ERROR: [Runs 36-25] xelab application returned error(s). Please see 'E:/DSP/DSPIC_final.sim/sim_1/behav/xelab.log' file for more details. ERROR: [Common 17-69] Command failed: Failed to compile the design! 
+// HOptionPane Error: 'ERROR: [Common 17-69] Command failed: Failed to compile the design!  (Run Simulation)'
+// a:a (bR:JFrame): Critical Messages: addNotify
+// [Engine Memory]: 543 mb (+3080kb) [01:38:52]
+selectButton ((HResource) null, "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+selectTab ((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\add_1/R_temp_reg[22] ) is unused and will be removed from module flp32_add_sub.. ]", 35, false, false, false, true, false); // N:f (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceItoP.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // af:JMenu (y:JPopupMenu, Popup:JWindow)
+selectMenuItem (PAResourceItoP.MsgTreePanel_DISCARD_OLD_MESSAGES, "Discard Old Messages"); // ai:JMenuItem (y:JPopupMenu, Popup:JWindow)
+// Elapsed time: 129 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "testbench.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// [GUI Memory]: 101 mb (+971kb) [01:53:25]
+// HMemoryUtils.trashcanNow. Current time: 1/19/14 6:32:14 PM

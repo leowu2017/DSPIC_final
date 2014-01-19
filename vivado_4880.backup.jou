@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Sun Jan 19 16:30:57 2014
+# Process ID: 3720
+# Log file: E:/DSP/vivado.log
+# Journal file: E:/DSP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:\DSP\DSPIC_final.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1

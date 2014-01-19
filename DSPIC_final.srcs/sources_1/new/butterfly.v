@@ -1,11 +1,10 @@
 `timescale 1ns / 1ps
 
-module butterfly();
+module butterfly(input_real, input_img,output_real, output_img);
 
-    input  [31:0][15:0] input_real, input_img;
-    output [31:0][15:0] output_real, output_img;
-    
-    wire [31:0][15:0] real_stage2, img_stage2, real_stage3, img_stage3, real_stage4, img_stage4, real_stage5, img_stage5, real_stage6, img_stage6, real_stage7, img_stage7, real_stage8, img_stage8;    
+    input  [31:0] input_real[15:0], input_img[15:0];
+    output [31:0] output_real[15:0], output_img[15:0];
+    wire [31:0] real_stage2[15:0], img_stage2[15:0], real_stage3[15:0], img_stage3[15:0], real_stage4[15:0], img_stage4[15:0], real_stage5[15:0], img_stage5[15:0], real_stage6[15:0], img_stage6[15:0], real_stage7[15:0], img_stage7[15:0], real_stage8[15:0], img_stage8[15:0];    
     
     //stage2
     flp32_complex_adder adder2_0(input_real[0],input_img[0],input_real[8],input_img[8],real_stage2[0],img_stage2[0]);
@@ -28,10 +27,10 @@ module butterfly();
     //stage3
     assign real_stage3[0:11] = real_stage2[0:11];
     assign img_stage3[0:11] = img_stage2[0:11];
-    flp32_complex_multiplier mult3_12(real_stage2[12], img_stage2[12], 0, 2'b1_0111_1111_0000_0000_0000_0000_0000_000, real_stage3[12], img_stage3[12]);
-    flp32_complex_multiplier mult3_13(real_stage2[13], img_stage2[13], 0, 2'b1_0111_1111_0000_0000_0000_0000_0000_000, real_stage3[13], img_stage3[13]);
-    flp32_complex_multiplier mult3_14(real_stage2[14], img_stage2[14], 0, 2'b1_0111_1111_0000_0000_0000_0000_0000_000, real_stage3[14], img_stage3[14]);
-    flp32_complex_multiplier mult3_15(real_stage2[15], img_stage2[15], 0, 2'b1_0111_1111_0000_0000_0000_0000_0000_000, real_stage3[15], img_stage3[15]);
+    flp32_complex_multiplier mult3_12(real_stage2[12], img_stage2[12], 0, 32'b1_0111_1111_0000_0000_0000_0000_0000_000, real_stage3[12], img_stage3[12]);
+    flp32_complex_multiplier mult3_13(real_stage2[13], img_stage2[13], 0, 32'b1_0111_1111_0000_0000_0000_0000_0000_000, real_stage3[13], img_stage3[13]);
+    flp32_complex_multiplier mult3_14(real_stage2[14], img_stage2[14], 0, 32'b1_0111_1111_0000_0000_0000_0000_0000_000, real_stage3[14], img_stage3[14]);
+    flp32_complex_multiplier mult3_15(real_stage2[15], img_stage2[15], 0, 32'b1_0111_1111_0000_0000_0000_0000_0000_000, real_stage3[15], img_stage3[15]);
     
     //stage4
     flp32_complex_adder adder4_0(real_stage3[0], img_stage3[0], real_stage3[4], img_stage3[4], real_stage4[0], img_stage4[0]);
@@ -52,7 +51,19 @@ module butterfly();
     flp32_complex_subtracter subtracter4_15(real_stage3[11], img_stage3[11], real_stage3[15], img_stage3[15], real_stage4[15], img_stage4[15]);
     
     //stage5
-    
+    assign real_stage5[0:5] = real_stage4[0:5];
+    assign img_stage5[0:5] = img_stage4[0:5];    
+    assign real_stage5[8:9] = real_stage4[8:9];
+    assign img_stage5[8:9] = img_stage4[8:9];
+    assign real_stage5[12:13] = real_stage4[12:13];
+    assign img_stage5[12:13] = img_stage4[12:13];
+    flp32_complex_multiplier mult5_6(real_stage4[6], img_stage4[6], 0, 32'b1_0111_1111_0000_0000_0000_0000_0000_000, real_stage5[6], img_stage5[7]);
+    flp32_complex_multiplier mult5_7(real_stage4[7], img_stage4[7], 0, 32'b1_0111_1111_0000_0000_0000_0000_0000_000, real_stage5[6], img_stage5[7]);            
+    flp32_complex_multiplier mult5_10(real_stage4[10], img_stage4[11], 32'b0_0111_1110_0110_1010_0000_1001_1110_011, 32'b1_0111_1110_0110_1010_0000_1001_1110_011, real_stage5[10], img_stage5[10]);
+    flp32_complex_multiplier mult5_11(real_stage4[11], img_stage4[11], 32'b0_0111_1110_0110_1010_0000_1001_1110_011, 32'b1_0111_1110_0110_1010_0000_1001_1110_011, real_stage5[11], img_stage5[11]); 
+    flp32_complex_multiplier mult5_14(real_stage4[14], img_stage4[14], 32'b1_0111_1110_0110_1010_0000_1001_1110_011, 32'b1_0111_1110_0110_1010_0000_1001_1110_011, real_stage5[14], img_stage5[14]);
+    flp32_complex_multiplier mult5_15(real_stage4[15], img_stage4[15], 32'b1_0111_1110_0110_1010_0000_1001_1110_011, 32'b1_0111_1110_0110_1010_0000_1001_1110_011, real_stage5[15], img_stage5[15]); 
+            
     //stage6
     flp32_complex_adder adder6_0(real_stage5[0], img_stage5[0], real_stage5[2], img_stage5[2], real_stage6[0], img_stage6[0]);
     flp32_complex_adder adder6_1(real_stage5[1], img_stage5[1], real_stage5[3], img_stage5[3], real_stage6[1], img_stage6[1]);
@@ -73,6 +84,21 @@ module butterfly();
     flp32_complex_subtracter subtracter6_15(real_stage5[13], img_stage5[13], real_stage5[15], img_stage5[15], real_stage6[15], img_stage6[15]);
     
     //stage7
+    assign real_stage7[0:2] = real_stage6[0:2];
+    assign img_stage7[4] = img_stage6[4];   
+    assign img_stage7[6] = img_stage6[6]; 
+    assign img_stage7[8] = img_stage6[8];
+    assign img_stage7[10] = img_stage6[10];
+    assign img_stage7[12] = img_stage6[12];
+    assign img_stage7[14] = img_stage6[14]; 
+    flp32_complex_multiplier mult7_3(real_stage6[3], img_stage6[3], 0, 32'b1_0111_1111_0000_0000_0000_0000_0000_000, real_stage7[3], img_stage7[3]);  
+    flp32_complex_multiplier mult7_5(real_stage6[5], img_stage6[5], 32'b0_0111_1110_0110_1010_0000_1001_1110_011, 32'b1_0111_1110_0110_1010_0000_1001_1110_011, real_stage7[5], img_stage7[5]);  
+    flp32_complex_multiplier mult7_7(real_stage6[7], img_stage6[7], 32'b1_0111_1110_0110_1010_0000_1001_1110_011, 32'b1_0111_1110_0110_1010_0000_1001_1110_011, real_stage7[7], img_stage7[7]);  
+    flp32_complex_multiplier mult7_9(real_stage6[9], img_stage6[9], 32'b0_0111_1110_1101_1001_0000_0110_1011_110, 32'b1_0111_1101_1000_0111_1101_1110_0010_101, real_stage7[9], img_stage7[9]);  
+    flp32_complex_multiplier mult7_11(real_stage6[11], img_stage6[11], 32'b1_0111_1101_1000_0111_1101_1110_0010_101, 32'b1_0111_1110_1101_1001_0000_0110_1011_110, real_stage7[11], img_stage7[11]);  
+    flp32_complex_multiplier mult7_13(real_stage6[13], img_stage6[13], 32'b0_0111_1101_1000_0111_1101_1110_0010_101, 32'b1_0111_1110_1101_1001_0000_0110_1011_110, real_stage7[13], img_stage7[13]);  
+    flp32_complex_multiplier mult7_15(real_stage6[15], img_stage6[15], 32'b1_0111_1110_1101_1001_0000_0110_1011_110, 32'b1_0111_1101_1000_0111_1101_1110_0010_101, real_stage7[15], img_stage7[15]);  
+    
     
     //stage8
     flp32_complex_adder adder8_0(real_stage7[0], img_stage7[0], real_stage7[1], img_stage7[1], real_stage8[0], img_stage8[0]);
@@ -97,8 +123,7 @@ module butterfly();
     flp32_complex_subtracter subtracter8_13(real_stage7[12], img_stage7[12], real_stage7[13], img_stage7[13], real_stage8[13], img_stage8[13]);
     
     flp32_complex_adder adder8_14(real_stage7[14], img_stage7[14], real_stage7[15], img_stage7[15], real_stage8[14], img_stage8[14]);
-    flp32_complex_subtracter subtracter8_15(real_stage7[14], img_stage7[14], real_stage7[15], img_stage7[15], real_stage8[15], img_stage8[15]);
-    
+    flp32_complex_subtracter subtracter8_15(real_stage7[14], img_stage7[14], real_stage7[15], img_stage7[15], real_stage8[15], img_stage8[15]);    
     
 
 endmodule
