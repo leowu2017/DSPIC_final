@@ -2,7 +2,7 @@
 `include "params.v"
 
 `define POINTS 2
-`define POINT_HALF 1
+`define POINTS_HALF 1
 `define DELAY 1
 `define COUNT_TO 3
 `define COUNTER_BITS 2
@@ -27,7 +27,7 @@ always@(counter or en or rst)
 begin
 	if(~rst)
 		counter_tmp = `COUNTER_BITS'd0;
-	else if(counter<`COUNTER_BITS'dCOUNT_TO && en)
+	else if(counter<`COUNTER_BITS'd`COUNT_TO && en)
 		counter_tmp = counter+1;
 	else
 		counter_tmp = counter;
@@ -46,7 +46,7 @@ always@(counter or rst or en)
 begin
 	if(~rst)
 		flag_tmp = 1'b0;
-	else if(counter>=`COUNTER_BITS'd`DELAY or en)
+	else if(counter>=`COUNTER_BITS'd`DELAY && en)
 		flag_tmp = 1'b1;
 	else
 		flag_tmp = flag;
