@@ -20,17 +20,26 @@ module add(X0, Y0, R);
         begin
             shi = e1 - e2;
             s2 = s2 >> shi;
-            R_temp[30:23] = e1 + 8'b0000_0001;
+            R_temp[30:23] = e1;
         end
         else
         begin
             shi = e2 - e1;
             s1 = s1 >> shi;
-            R_temp[30:23] = e2 + 8'b0000_0001;
+            R_temp[30:23] = e2;
         end
         s_temp[24:0] = s1 + s2;
         if ( s_temp[24]==1 )
+        begin
             R_temp[22:0] = s_temp[22:0] >> 1;
+            R_temp[30:23] = R_temp[30:23] + 8'b0000_0001;
+        end
+        else
+            R_temp[22:0] = s_temp[22:0];
+        if (X0==32'b0_0000_0000_0000_0000_0000_0000_0000_000)
+            R_temp = Y0;
+        if (Y0==32'b0_0000_0000_0000_0000_0000_0000_0000_000)
+            R_temp = X0;
         R <= R_temp;
     end
 endmodule

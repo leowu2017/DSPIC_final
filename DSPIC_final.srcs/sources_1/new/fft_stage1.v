@@ -1,13 +1,13 @@
 `timescale 1ns / 1ps
 `include "params.v"
 
-`define POINTS 2
-`define POINTS_HALF 1
-`define DELAY 1
-`define COUNT_TO 3
-`define COUNTER_BITS 2
+`define POINTS 16
+`define POINTS_HALF 8
+`define DELAY 8
+`define COUNT_TO 24
+`define COUNTER_BITS 5
 
-module fft_stage4(out_real,out_imag,in_real,in_imag,flag,clk,en,rst);
+module fft_stage1(out_real,out_imag,in_real,in_imag,flag,clk,en,rst);
 output reg `BITS_RANGE out_real,out_imag;
 input `BITS_RANGE in_real,in_imag;
 output reg flag;
@@ -15,6 +15,7 @@ input clk,en,rst;
 
 reg `BITS_RANGE delay1_real[`DELAY-1:0],delay1_imag[`DELAY-1:0],delay1_tmp_real[`DELAY-1:0],delay1_tmp_imag[`DELAY-1:0]
 	,delay2_real[`DELAY-1:0],delay2_imag[`DELAY-1:0],delay2_tmp_real[`DELAY-1:0],delay2_tmp_imag[`DELAY-1:0];
+reg `BITS_RANGE out_tmp_real, out_tmp_imag;
 reg [`COUNTER_BITS-1:0]counter,counter_tmp;
 reg flag_tmp;
 wire `BITS_RANGE butterfly_o1_real,butterfly_o1_imag,butterfly_o2_real,butterfly_o2_imag;
@@ -46,7 +47,7 @@ always@(counter or rst or en)
 begin
 	if(~rst)
 		flag_tmp = 1'b0;
-	else if(counter>=`COUNTER_BITS'd`POINTS_HALF-1 && en)
+	else if(counter>=`COUNTER_BITS'd`DELAY && en)
 		flag_tmp = 1'b1;
 	else
 		flag_tmp = flag;
@@ -163,23 +164,34 @@ begin
 end
 
 // commutator
-always@(butterfly_o1_real or butterfly_o1_imag or delay2_real or delay2_imag or en or rst)
+always@(butterfly_o1_real or butterfly_o1_imag or delay2_real or delay2_imag or out_real or out_imag or en or rst)
 begin
 	if(~rst)
 	begin
-		out_real = `BITS'd0;
-		out_imag = `BITS'd0;
+		out_tmp_real = `BITS'd0;
+		out_tmp_imag = `BITS'd0;
 	end
-	else if(counter>`COUNTER_BITS'd`POINTS_HALF-1 && counter<`COUNTER_BITS'd`POINTS && en)
+	else if(counter<=`COUNTER_BITS'd`POINTS_HALF && en)
 	begin
-		out_real = butterfly_o1_real;
-		out_imag = butterfly_o1_imag;
+		out_tmp_real = butterfly_o1_real;
+		out_tmp_imag = butterfly_o1_imag;
 	end
-	else if(counter<`COUNTER_BITS'd`COUNT_TO && en)
+	else if(counter<=`COUNTER_BITS'd`COUNT_TO && en)
 	begin
-		out_real = delay2_real[`DELAY-1];
-		out_imag = delay2_imag[`DELAY-1];
+		out_tmp_real = delay2_real[`DELAY-1];
+		out_tmp_imag = delay2_imag[`DELAY-1];
 	end
+	else
+	begin
+		out_tmp_real = out_real;
+		out_tmp_imag = out_imag;
+	end
+end
+
+always@(posedge clk or negedge rst)
+begin
+	out_real <= out_tmp_real;
+	out_imag <= out_tmp_imag;
 end
 
 endmodule

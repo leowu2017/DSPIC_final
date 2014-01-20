@@ -1,7 +1,7 @@
 point = 16;
 bits = 32;
 
-twiddle_factors = exp(-2j*pi*(0:point)-1/point);
+twiddle_factors = exp(-2j*pi*(0:point-1)/point);
 real_parts = real(twiddle_factors);
 imaginary_parts = imag(twiddle_factors);
 

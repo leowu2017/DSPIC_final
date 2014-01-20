@@ -3,7 +3,7 @@
 
 module LUT_twiddle(real_part,imag_part,index);
 output reg `BITS_RANGE real_part,imag_part;
-input [`STAGE:0] index;
+input [`STAGE-1:0] index;
 
 //real
 always@(index)

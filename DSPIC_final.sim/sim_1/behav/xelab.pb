@@ -50,15 +50,15 @@ GE:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_complex_adder.v2defaul
 Â
 0event expressions must result in a singular type634*xsimverific2T
 >E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft_stage4.v2default:default2
-562default:default8@Z10-634
+642default:default8@Z10-634
 Ã
 0event expressions must result in a singular type634*xsimverific2T
 >E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft_stage4.v2default:default2
-1072default:default8@Z10-634
+1152default:default8@Z10-634
 Ã
 0event expressions must result in a singular type634*xsimverific2T
 >E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft_stage4.v2default:default2
-1582default:default8@Z10-634
+1662default:default8@Z10-634
 ·
 +Analyzing Verilog file "%s" into library %s165*xsimverific2R
 >E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_fft_stage.v2default:default2
@@ -70,14 +70,6 @@ GE:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_complex_adder.v2defaul
 9
 Starting static elaboration
 342*	simulatorZ43-3458
-£
-Bactual bit length %s differs from formal bit length %s for port %s278*xsimverific2
-12default:default2
-322default:default2
-
-out_i_real2default:default2T
->E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft_stage4.v2default:default2
-232default:default8@Z10-278
 :
 Completed static elaboration
 280*	simulatorZ43-3396

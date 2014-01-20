@@ -10,13 +10,12 @@ INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/
 INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/flp32_complex_adder.v" into library work
 INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/butterfly.v" into library work
 INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft_stage4.v" into library work
-WARNING: [VRFC 10-634] event expressions must result in a singular type [E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft_stage4.v:56]
-WARNING: [VRFC 10-634] event expressions must result in a singular type [E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft_stage4.v:107]
-WARNING: [VRFC 10-634] event expressions must result in a singular type [E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft_stage4.v:158]
+WARNING: [VRFC 10-634] event expressions must result in a singular type [E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft_stage4.v:64]
+WARNING: [VRFC 10-634] event expressions must result in a singular type [E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft_stage4.v:115]
+WARNING: [VRFC 10-634] event expressions must result in a singular type [E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft_stage4.v:166]
 INFO: [VRFC 10-165] Analyzing Verilog file "E:/Leo/DSPIC_final/DSPIC_final.srcs/sim_1/new/test_fft_stage.v" into library work
 INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port out_i_real [E:/Leo/DSPIC_final/DSPIC_final.srcs/sources_1/new/fft_stage4.v:23]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
